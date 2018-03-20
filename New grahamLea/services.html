@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="initial-scale=1.0" />
+
+  <title>Architectural Services | Graham Lea Architecture | Preston</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--floating to top button-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <link rel='stylesheet' id='normalize-css' href='http://grahamlea.co.uk/wp-content/themes/cornerstone/css/normalize.css?ver=3.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' id='foundation_css-css' href='http://grahamlea.co.uk/wp-content/themes/grahamlea/css/foundation.min.css?ver=5.5.1' type='text/css' media='all' />
+
+</head>
+<body>
+<!--Nav bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      <!--adding logo-->
+        </a>
+        <a class="show-for-medium-up" href="index.html" title="" rel="home">
+        <img src="img/LOGO.png" alt="Graham Lea Architecture">
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#band">PROJECTS</a></li>
+        <li><a href="#tour">ABOUT US</a></li>
+        <li><a href="#contact">NEWS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES
+          <span class="caret"></span></a>
+
+          <ul class="dropdown-menu">
+
+            <!--adding font awesome for phone-->
+            <li><a href="tel:01772463627"><i class="fa fa-phone"></i>01772 463627</a></li>
+
+            <li><a href="#">House Extension Plans</a></li>
+            <li><a href="#">Commercial Architectural Services</a></li>
+            <li><a href="#">New Build Design Services</a></li>
+            <li><a href="#">Barn Conversions</a></li>
+            <li><a href="#">Loft Conversions</a></li>
+            <li><a href="#">Lease / Licensing</a></li>
+            <li><a href="#">Ideas and Sketch Design</a></li>
+            <li><a href="#">Feasibility Studies and Pre-application Advice</a></li>
+            <li><a href="#">Planning Permission</a></li>
+            <li><a href="#">Permitted Development and Neighbour Consultation</a></li>
+            <li><a href="#">Listed Building Consent</a></li>
+            <li><a href="#">Building Regulation Approval</a></li>
+            <li><a href="#">Party Wall and Neighbour Issues</a></li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  a.btt {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    background: #ebebeb;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  a.btt .fa {
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+
+  a.btt .fa-chevron-up:before {
+    color: tomato;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  a.btt:hover {
+    transform: translatey(-10%);
+  }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+  var scrolled = 400;
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > scrolled) {
+      $('a.btt').fadeIn('slow');
+    } else {
+      $('a.btt').fadeOut('slow');
+    }
+  });
+</script>
+
+<script>
+  $('a.btt').click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 700);
+    return false;
+  });
+</script>
+</head>
+
+<style>
+  /*navbar*/
+.navbar li a, .navbar .navbar-brand { 
+      color: tomato !important;
+  }
+  .navbar-nav li a:hover {
+      color: blue !important;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color:;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: black !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: lightblue !important;
+  }
+  </style>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <br>
+    <h4>Services</h4>
+    <hr>
+    <h4>Architectural Services</h4>
+
+    <p>Commercial buildings, new builds, extensions, garages, loft conversions, internal alterations, Houses of Multiple Occupancy (HMOs), Licence plans – whatever your design needs are Graham Lea Architecture provides a comprehensive range of commercial
+      and residential architectural services. Having building work done or commissioning a commercial project can be daunting, particularly if it’s unfamiliar territory. Let us guide you, step-by-step through the process.</p>
+  </div>
+  <hr>
+  <br>
+  <div class="row row-margin-bottom">
+    <div class="col-md-5 no-padding lib-item" data-category="view">
+      <div class="lib-panel">
+        <div class="row box-shadow">
+          <div class="col-md-6">
+            <img class="lib-img-show" src="img/images/newservices1.jpg">
+          </div>
+          <div class="col-md-6">
+            <div class="lib-row lib-header">
+              House Extension Plans
+              <div class="lib-header-seperator"></div>
+            </div>
+            <div class="lib-row lib-desc">
+              Need more space but moving is not an option. Breathe new life into your home by adding an extension. Find out how our planning and design service can help bring your home extension ideas to life.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-5 no-padding lib-item" data-category="ui">
+      <div class="lib-panel">
+        <div class="row box-shadow">
+          <div class="col-md-6">
+            <img class="lib-img" src="img/images/serv3.jpg">
+          </div>
+          <div class="col-md-6">
+            <div class="lib-row lib-header">
+              Commercial Architectural Services
+              <div class="lib-header-seperator"></div>
+            </div>
+            <div class="lib-row lib-desc">
+              Explore our commercial project portfolio and find out how we can apply our planning and design expertise to make sure your business premises are fit for your purposes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--second box row-->
+
+<div class="row row-margin-bottom">
+  <div class="col-md-5 no-padding lib-item" data-category="view">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img-show" src="img/images/serv2.jpg">
+        </div>
+
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            New Build Design
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            There’s no better way to get the home you’ve always dreamed of than to design it yourself. As planning and design experts we are ideally placed to guide and assist you through the planning process and turn your dream home into a reality.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5 no-padding lib-item" data-category="ui">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img" src="img/images/serv4.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Barn Conversions
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            If you want to convert a barn for your own use or turn it into a commercial venture, discover how we can support you through the planning and design process.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row row-margin-bottom">
+  <div class="col-md-5 no-padding lib-item" data-category="view">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img-show" src="img/images/serv6.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Loft Conversions
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            Maximise the space in your loft to add a new floor to your property. To make sure you have sufficient space to achieve this take a look at the things we would advise you to consider and how we can help.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5 no-padding lib-item" data-category="ui">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img" src="img/images/serv7.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Lease / Licence plans
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            This is a service exclusively for business owners and solicitors. Our quick and efficient lease / licence plans service will make sure you’re doing the kind of business you want in no time at all.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row row-margin-bottom">
+  <div class="col-md-5 no-padding lib-item" data-category="view">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img-show" src="img/images/serv8.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Feasibility Studies and Pre-application Advice
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            We think this is one of the most crucial stages in the planning and design process. Benefit from our extensive knowledge and experience of dealing
+            <!--with local planning laws and regulations,and discover how we can take a lot of the stress and hassle out of this stage for you.-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5 no-padding lib-item" data-category="ui">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img" src="img/images/serv9.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Ideas and Sketch Design
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            Planning what you want to get out of your build project can be fun. Find out what we recommend you do to get the most out of this stage.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row row-margin-bottom">
+  <div class="col-md-5 no-padding lib-item" data-category="view">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img-show" src="img/images/serv10.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Planning Permission
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            Gaining planning permission for your building project can be overwhelming to those who are unfamiliar with the process. Discover more about the practical help and advice you can expect from us.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5 no-padding lib-item" data-category="ui">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img" src="img/images/serv11.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Permitted Development and Neighbour Consultation
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            Gaining planning permission for your building project can be overwhelming to those who are unfamiliar with the process...
+            <!--Discover more about the practical help and advice you can expect from us.-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row row-margin-bottom">
+  <div class="col-md-5 no-padding lib-item" data-category="view">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img-show" src="img/images/serv12.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Conservation and Listed Building Consent
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            some text
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5 no-padding lib-item" data-category="ui">
+    <div class="lib-panel">
+      <div class="row box-shadow">
+        <div class="col-md-6">
+          <img class="lib-img" src="img/images/serv13.jpg">
+        </div>
+        <div class="col-md-6">
+          <div class="lib-row lib-header">
+            Building Regulations Approval
+            <div class="lib-header-seperator"></div>
+          </div>
+          <div class="lib-row lib-desc">
+            Providing local Councils with precise and detailed drawings can speed up the planning permission process and get your building work underway sooner rather than later. Find out how we do this for you.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<style>
+  body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  .lib-panel {
+    margin-bottom: 20Px;
+  }
+
+  .lib-panel img {
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .lib-panel .row,
+  .lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+  }
+
+
+  .lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+  }
+
+  .lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+  }
+
+  .lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+  }
+
+  .lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+  }
+
+  .lib-panel .lib-row.lib-desc a {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+  }
+
+  .row-margin-bottom {
+    margin-bottom: 20px;
+  }
+
+  .box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+</style>
+
+<hr>
+
+<div class="container">
+  <div class="row">
+    <h4>A typical design service</h4>
+
+    <p>
+      <ul>
+        <li><span>A digital measured survey of the existing property</span></li>
+        <li><span>Production of existing drawings</span></li>
+        <li><span>Design</span></li>
+        <li><span>Production of sketch scheme drawings and issue of the scheme to the client</span></li>
+        <li><span>Amendments to the scheme</span></li>
+        <li><span>Preparation of CAD drawings for planning permission</span></li>
+        <li><span>Submission of planning drawings and application forms to the local Council</span></li>
+        <li><span>Preparation of Building Regulation drawings</span></li>
+      </ul>
+    </p>
+
+    <p>We can also help with costings, finding reliable builders to tender and do the work, and arrange a site management architect design service.</p>
+  </div>
+</div>
+
+<!--next and previous button-->
+<style>
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+  .next {
+    background-color: tomato;
+    color: white;
+  }
+</style>
+<div>
+  <center>
+
+    <a href="#" class="previous">&laquo; Previous</a>
+    <a href="#" class="next">Next &raquo;</a>
+  </center>
+</div>
+
+<br><br>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+        <ul class="contact">
+          <span>Links</span>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+
+          <li>
+            <a href="aboutUs.html">About Us</a>
+          </li>
+
+          <li>
+            <a href="news.html">News </a>
+          </li>
+
+          <li>
+            <a href="contactPage.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+        <ul class="adress">
+          <span>Contacts</span>
+          <li>
+            <p>Graham Lea Architecture Fourth Floor The Media Factory Kirkham Street Preston PR1 2HE</p>
+            <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+        <ul class="social">
+          <span>Social media</span>
+          <li>
+            <a href="https://www.facebook.com/Graham-Lea-Architecture-163597200357082/"><i class="fa fa-facebook fa-4x"></i></a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Graham_Lea"><i class="fa fa-twitter fa-4x"></i></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fa fa-linkedin fa-4x"></i></a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCa9H_NRq56tjoUEiaTW3irg"><i class="fa fa-youtube fa-4x"></i></a>
+          </li>
+
+          <li>
+            <a href="https://plus.google.com/+GrahamleaCoUk1"><i class="fa fa-google-plus fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.co.uk/glea7/"><i class="fa fa-pinterest fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.houzz.co.uk/pro/graham-lea/graham-lea-architecture"><i class="fa fa-houzz fa"></i></a>
+          </li>
+        </ul>
+        <img width="200px" src="img/GRAHAM -LEA LOGO.svg"></img>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+    <br>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+      body {
+        font-family: 'Roboto', sans-serif;
+
+        background-color: #E8E8E8;
+      }
+
+      footer {
+        background-color: #5D5D5D;
+        padding: 10px 0px;
+      }
+
+      .adress span,
+      .contact span,
+      .social span {
+        color: tomato;
+        font-weight: 800;
+        padding: 5px 0px;
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 3px;
+      }
+
+      .adress li,
+      .contact li,
+      .social li {
+        padding: 5px 0px;
+        list-style: none;
+      }
+
+      .adress li p,
+      .contact li a,
+      .social li a {
+        color: #FFF;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .social li {
+        float: left;
+      }
+
+      .social .fa {
+        color: #9c9c9c;
+        margin-right: 10px;
+        font-size: 22px;
+      }
+    </style>
+
+    <!--next and previous button-->
+    <style>
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+      }
+
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .previous {
+        background-color: #f1f1f1;
+        color: black;
+      }
+
+      .next {
+        background-color: tomato;
+        color: white;
+      }
+    </style>
+
+    </body>
+</html>

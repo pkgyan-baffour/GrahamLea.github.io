@@ -1,0 +1,390 @@
+
+  .bg-1 {
+      background: blue;
+      
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: tomato !important;
+  }
+  .navbar-nav li a:hover {
+      color: blue !important;
+  }
+  
+  .navbar {
+      margin-bottom: 0;
+      background-color:;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+
+  }
+ 
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: black !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: lightblue !important;
+  }
+
+/*2 equal size columns*/
+* {
+    box-sizing: content-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 40px; 
+    }
+
+
+ a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+    }
+
+  
+  /*previous- next*/
+
+    .before {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .after {
+      background-color: tomato;
+      color: white;
+    }
+    .img-responsive {
+    width: 50%;
+    height: auto;
+}
+
+      /*back to top*/
+
+      /*CSS inside Custom CSS window*/
+
+      a.btt {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        width: 50px;
+        height: 50px;
+        right: 30px;
+        bottom: 30px;
+        background: #ebebeb;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      a.btt .fa {
+        width: 100%;
+        height: 100%;
+        display: table;
+      }
+
+      a.btt .fa-chevron-up:before {
+        color: tomato;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      a.btt:hover {
+        transform: translatey(-10%);
+      }
+
+      /*footer*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+      body {
+        font-family: 'Roboto', sans-serif;
+
+        background-color: #E8E8E8;
+      }
+
+      footer {
+        background-color: #5D5D5D;
+        padding: 10px 0px;
+      }
+
+      .adress span,
+      .contact span,
+      .social span {
+        color: tomato;
+        font-weight: 800;
+        padding: 5px 0px;
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 3px;
+      }
+
+      .adress li,
+      .contact li,
+      .social li {
+        padding: 5px 0px;
+        list-style: none;
+      }
+
+      .adress li p,
+      .contact li a,
+      .social li a {
+        color: #FFF;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .social li {
+        float: left;
+      }
+
+      .social .fa {
+        color: #9c9c9c;
+        margin-right: 10px;
+        font-size: 22px;
+      }
+
+    /*services css*/
+
+    body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+  text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+    }
+
+/*next and previous button css*/
+    a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .previous {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .next {
+      background-color: tomato;
+      color: white;
+    }
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+    }
+
+    /* Center website */
+
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+
+    .row {
+      margin: 10px -16px;
+    }
+
+    /* Add padding BETWEEN each column */
+
+    .row,
+    .row>.column {
+      padding: 8px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+
+    .column {
+      float: left;
+      width: 33.33%;
+      display: none;
+      /* Hide all elements by default */
+    }
+
+    /* Clear floats after rows */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Content */
+
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+
+    /* The "show" class is added to the filtered elements */
+
+    .show {
+      display: block;
+    }
+
+    /* Style the buttons */
+
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+    .heading-title {
+        margin-bottom: 100px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .heading-title h3 {
+        margin-bottom: 0;
+        letter-spacing: 2px;
+        font-weight: normal;
+      }
+
+      .p-top-30 {
+        padding-top: 30px;
+      }
+
+      .half-txt {
+        width: 60%;
+        margin: 0 auto;
+        display: inline-block;
+        line-height: 25px;
+        color: #7e7e7e;
+      }
+
+      .text-uppercase {
+        text-transform: uppercase;
+      }
+
+      
