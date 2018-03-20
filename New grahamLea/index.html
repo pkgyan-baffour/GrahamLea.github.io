@@ -2,10 +2,6 @@
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
-   <!--adding CSS External-->
-  <link rel="stylesheet" type="text/css" href="CSS/GrahamLea.css">
-<!--adding JS External-->
-<script type="text/javascript" src="JS/GrahamLea.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,16 +12,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!--floating to top button-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
   <!--carousel included in header bootsnipp-->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-<!--carousel slider included in head-->
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!----end-->
 
  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -44,16 +44,13 @@
     img {
       max-height: 100%
     }
-
     .swiper-container {
       width: 100%;
-      height: 200px;
+      height: 250px;
     }
-
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #fff;
       /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
@@ -69,8 +66,18 @@
       align-items: center;
       /*width:90%;*/
     }
-  </style>
-  
+  * {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 30px;
+
+</style>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -80,12 +87,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-
       </button>
     <!--adding logo-->
     </a>   
       <a class="show-for-medium-up" href="index.html" title="" rel="home">
-        <img src="img/GRAHAM LEA LOGO.jpg" alt="Graham Lea Architecture">
+        <img src="img/G.LEA LOGO.png" alt="Graham Lea Architecture">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -96,8 +102,6 @@
         <li><a href="#contact">NEWS</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li class="dropdown">
-
-
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES
           <span class="caret"></span></a>
 
@@ -155,90 +159,71 @@
     </div>
 
     <div class="item">
-      <img src="img/9 copy.jpg" class="img-responsive" alt="Chania" style="width:100%; height:100vh">
+      <img src="img/9 copy.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
 <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Offices</h3>
           <p>Old station Conversions - Longdride</p>
         </div> 
     </div>
-
     <div class="item">
       <img src="img/Barn conversions.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Barn Conversions</h3>
           <p>Childrens Nursery - Croston</p>
-          
         </div> 
     </div>
-
     <div class="item">
       <img src="img/self builds.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Self Build</h3>
           <p>Traditional new build six bedrooms - Longridge</p>
         </div> 
     </div>
-
     <div class="item">
       <img src="img/eco builds.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Eco-Builds</h3>
           <p>Subterranean Eco Home in an Area of ONB – Northumberland</p>
         </div> 
     </div>
-
     <div class="item">
       <img src="img/comercial buildings.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Comercial buildings</h3>
           <p>Contemporary House Extensions - Clitheroe</p>
         </div> 
     </div>
-
-
     <div class="item">
       <img src="img/self builds.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Traditional new build six bedrooms</h3>
           <p>Longridge</p>
         </div> 
     </div>
-
     <div class="item">
       <img src="img/house alterations.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>House Alterations</h3>
           <p>Balcony Extensions - Garstang</p>
         </div> 
     </div>
-
-
     <div class="item">
       <img src="img/home extensions.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Contemporay Conservatory Replacement</h3>
           <p>Fulwood</p>
         </div> 
     </div>
-
     <div class="item">
       <img src="img/Industrial buildings.jpg" class="img-responsive" alt="" style="width:100%; height:100vh">
-
       <!--adding caption for carousel-->
       <div class="carousel-caption">
           <h3>Industrial Unit Alterations</h3>
@@ -246,10 +231,8 @@
         </div> 
     </div> 
     </div>
-  
     </div>
   </div>
-
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -260,11 +243,9 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
         <h2>Recent work</h2>
-        
           <br>
-<!--carousel-->
+        <!--carousel-->
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img src="img/1 copy.jpg" /></div>
@@ -285,9 +266,7 @@
   <!--carousel slider--> 
   <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js'></script>
-
   <script>
     var swiper = new Swiper('.swiper-container', {
       pagination: '.swiper-pagination',
@@ -308,62 +287,48 @@
       }
     });
     //# sourceURL=pen.js
-  </script>
-  
-<!--adding text to colums-->
-
+  </script> 
+<!--adding text to columns-->
 <div class="row">
-  <div class="column" style="background-color:#e1e1e1;">
-    <h2>Architectural Services Preston, Lancashire</h2>
-    <p>Graham Lea Architecture is an architectural design firm based in Preston, Lancashire. We take pride in creating exceptional residential and commercial buildings ranging from contemporary home extensions to innovative commercial developments.</p>
+  <div class="column" style="background-color:lightgrey;">
+    <p><h3>Architectural Services Preston, Lancashire</h3>
 
-    <h2>More than just plans</h2>
-    <p>Our greatest skill lies in helping our clients explore their design needs and visualising their desires for each project. Getting to the bottom of every small but important detail is key to the success of our projects. We use this information to provide imaginative, creative and stylish design solutions that bring our client’s architectural needs and aspirations to life.</p> 
+Graham Lea Architecture is an architectural design firm based in Preston, Lancashire.  We take pride in creating exceptional residential and commercial buildings ranging from contemporary home extensions to innovative commercial developments.
 
-    <p>Our aim is to provide user friendly architectural services to suit any budget be it a small house extension or a million pound commercial project. We are interested in all types and sizes of architectural projects and we’re suitably experienced to work with both private and public sector clients. Graham Lea Architecture has a track record of delivering complicated projects on challenging sites.</p>
+<h3>More than just plans</h3>
+<p>Our greatest skill lies in helping our clients explore their design needs and visualising their desires for each project. Getting to the bottom of every small but important detail is key to the success of our projects.  We use this information to provide imaginative, creative and stylish design solutions that bring our client’s architectural needs and aspirations to life.
+<br><br>
+Our aim is to provide user friendly architectural services to suit any budget be it a small house extension or a million pound commercial project. We are interested in all types and sizes of architectural projects and we’re suitably experienced to work with both private and public sector clients. Graham Lea Architecture has a track record of delivering complicated projects on challenging sites.
+<br><br>
+If you have a project you would like to discuss with us, or are just looking for some advice, please do not hesitate to .</p>
 
-    <p>If you have a project you would like to discuss with us, or are just looking for some advice, please do not hesitate to </p>
 
-    <a title="Contact" href="contactPage.html">telephone, email or call us</a>.</p>
+<a title="Contact" href="contactPage.html">telephone, email or call us</a>.</p>
   </div>
-  <div class="column" style="background-color:#e1e1e1;">
-    <h2>Why choose Graham Lea Architecture?</h2>
+  <div class="column" style="background-color:lightgrey;">
+    <div class="row">
+  <div class="column">
+    
+    <h3>Why choose Graham Lea Architecture?</h3>
     <p>
-
-      <!--https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_intro-->
-        <ul>
+  <ul>
           <li>We are passionate about great design and great architecture.</li>
-
           <li>We provide excellent value for high quality architectural services.</li>
-
           <li>Our drawings are accurate, highly detailed, and most of our planning drawings are in colour.</li>
-
           <li>Our level of service centres on our clients’ individual needs.</li>
-
           <li>We begin each project with a clean, fresh approach.</li>
           <li>We have a broad range of experience that we bring to each project.</li>
           <li>We can put you in touch with other professionals to provide a full service for any project and budget.</li>
-
         </ul>
-
-    </p>
-
-    <h2>Areas we cover</h2>
-    <p>We cover all of the North West for smaller projects and All of England for larger architectural projects.
-
-Areas we cover include: Lancashire, Manchester, Merseyside, Cumbria, Preston, Blackpool, Manchester, Lytham, Blackburn, Chorley, Southport, Bolton, Wigan, Longridge, and Leyland.</p>
-
-<h2>What our clients say about us</h2>
-<p>“Graham did a fantastic job for me re gaining planning permission and organising a structural engineers report, very professional and reliable.” Andrew Davis, Liverpool</p>
-
+<h3>Areas we cover</h3>
+We cover all of the North West for smaller projects and All of England for larger architectural projects.<br> <strong>Areas we cover include:</strong> Lancashire, Manchester, Merseyside, Cumbria, Preston, Blackpool, Manchester, Lytham, Blackburn, Chorley, Southport, Bolton, Wigan, Longridge, and Leyland. What our clients say about us “Graham did a fantastic job for me re gaining planning permission and organising a structural engineers report, very professional and reliable.” Andrew Davis, Liverpool
+  </div>
+</div>
 <p><a href="Testimonials.html">See more testimonials</a></p>
-
   </div>
   </div>
 </div>
 <br>
-
-
   <div>
     <center>
 <!--end of nextprevious button-->
@@ -371,11 +336,236 @@ Areas we cover include: Lancashire, Manchester, Merseyside, Cumbria, Preston, Bl
       <a href="projects.html" class="after">Next &raquo;</a>
     </center>
   </div>
-<br>
+  <br>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <footer>
+    <div class="container">
+      <div class="row">
 
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <ul class="contact">
+            <span>Links</span>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+
+            <li>
+              <a href="aboutUs.html">About Us</a>
+            </li>
+
+            <li>
+              <a href="news.html">News </a>
+            </li>
+
+            <li>
+              <a href="contactPage.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <ul class="adress">
+            <span>Contacts</span>
+            <li>
+              <p>Graham Lea Architecture Fourth Floor The Media Factory Kirkham Street Preston PR1 2HE</p>
+              <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <ul class="social">
+            <span>Social media</span>
+            <li>
+              <a href="https://www.facebook.com/Graham-Lea-Architecture-163597200357082/"><i class="fa fa-facebook fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/Graham_Lea"><i class="fa fa-twitter fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa fa-linkedin fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCa9H_NRq56tjoUEiaTW3irg"><i class="fa fa-youtube fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="https://plus.google.com/+GrahamleaCoUk1"><i class="fa fa-google-plus fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.co.uk/glea7/"><i class="fa fa-pinterest fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://www.houzz.co.uk/pro/graham-lea/graham-lea-architecture"><i class="fa fa-houzz fa"></i></a>
+            </li>
+          </ul>
+          <img width="200px" src="img/GRAHAM -LEA LOGO.svg"></img>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--footer-->
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+
+      background-color: #E8E8E8;
+    }
+
+    footer {
+      background-color: #5D5D5D;
+      padding: 10px 0px;
+    }
+
+    .adress span,
+    .contact span,
+    .social span {
+      color: tomato;
+      font-weight: 800;
+      padding: 5px 0px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 3px;
+    }
+
+    .adress li,
+    .contact li,
+    .social li {
+      padding: 5px 0px;
+      list-style: none;
+    }
+
+    .adress li p,
+    .contact li a,
+    .social li a {
+      color: #FFF;
+      letter-spacing: 2px;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: justify;
+    }
+
+    .p {
+      text-align: justify;
+    }
+
+    .social li {
+      float: left;
+    }
+
+    .social .fa {
+      color: #9c9c9c;
+      margin-right: 10px;
+      font-size: 22px;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+    }
+    .before {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    .after {
+      background-color: tomato;
+      color: white;
+    }
+    .navbar li a, .navbar .navbar-brand { 
+      color: tomato !important;
+  }
+  .navbar-nav li a:hover {
+      color: blue !important;
+  }
   
-  </div>
- 
+  .navbar {
+      margin-bottom: 0;
+      background-color:;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: black !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: lightblue !important;
+  }
+  </style>
+  <script>
+    var scrolled = 400;
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > scrolled) {
+        $('a.btt').fadeIn('slow');
+      } else {
+        $('a.btt').fadeOut('slow');
+      }
+    });
+    $('a.btt').click(function() {
+      $('html, body').animate({
+        scrollTop: 0
+      }, 700);
+      return false;
+    });
+  </script> 
+<!--scroll*/-->
+<style>
+  
+    a.btt {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      width: 50px;
+      height: 50px;
+      right: 30px;
+      bottom: 30px;
+      background: #ebebeb;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
 
+    a.btt .fa {
+      width: 100%;
+      height: 100%;
+      display: table;
+    }
+
+    a.btt .fa-chevron-up:before {
+      color: tomato;
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    a.btt:hover {
+      transform: translatey(-10%);
+    }
+  </style>
 </body>
 </html>
