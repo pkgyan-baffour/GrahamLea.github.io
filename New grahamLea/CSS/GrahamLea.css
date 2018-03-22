@@ -455,5 +455,12 @@
         margin-top:25px; 
       }
     }
-  /* Conatct end */
+  /* Contact end */
+  /*dash*/
+  .dash{
+  border: 0 none;
+  border-top: 2px dashed lightgrey;
+  
+  height:0;
+}
 
