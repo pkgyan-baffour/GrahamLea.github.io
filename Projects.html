@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Projects | Graham Lea</title>
@@ -10,22 +11,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!--floating to top button-->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <style>
     * {
       box-sizing: border-box;
     }
 
+    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_portfolio_gallery
+/*REMOVE PADDING FROM BODY TO GET FULL FOOTER*/
     body {
       background-color: #f1f1f1;
-      padding: 20px;
+      /*padding: 20px;*/
       font-family: Arial;
     }
 
@@ -162,7 +161,7 @@
 
   <br><br><br><br>
   <h2>Projects</h2>
-          <hr class="dash" />
+  <hr class="dash" />
   <!-- MAIN (Center website) -->
   <div class="main">
 
@@ -197,7 +196,6 @@
           <p>Longridge</p>
         </div>
       </div>
-
       <div class="column Commercial Projects">
         <div class="content">
           <img src="img/Projects/Commercial Projects/Office Development – Fulwood – Preston.jpg" alt="Commercial Projects" style="width:100%">
@@ -205,7 +203,6 @@
           <p>Fulwood</p>
         </div>
       </div>
-
       <div class="column Commercial Projects">
         <div class="content">
           <img src="img/Projects/Commercial Projects/Old Station Conversion – Longridge.jpg" alt="Commercial Projects" style="width:100%">
@@ -469,13 +466,8 @@
           <p>Garstang</p>
         </div>
       </div>
-
-      <!-- END GRID -->
     </div>
-
-    <!-- END MAIN -->
   </div>
-
   <script>
     filterSelection("all")
 
@@ -537,15 +529,15 @@
 
     footer {
       background-color: #5D5D5D;
-      padding: 10px 0px;
+      padding: 15px 0px;
     }
 
     .adress span,
     .contact span,
     .social span {
-      color: tomato;
+      color: lightgrey;
       font-weight: 800;
-      padding: 5px 0px;
+      /*padding: 5px 0px;*/
       display: block;
       text-transform: uppercase;
       font-size: 16px;
@@ -555,7 +547,7 @@
     .adress li,
     .contact li,
     .social li {
-      padding: 5px 0px;
+      padding: 0px 0px;
       list-style: none;
     }
 
@@ -565,8 +557,8 @@
       color: #FFF;
       letter-spacing: 2px;
       text-decoration: none;
-      font-size: 14px;
-      text-align: justify;
+      font-size: 13px;
+      /*text-align: justify;*/
     }
 
     .p {
@@ -579,18 +571,33 @@
 
     .social .fa {
       color: #9c9c9c;
-      margin-right: 10px;
-      font-size: 22px;
+      margin-right: 12px;
+      font-size: 32px;
+      
     }
-     .dash {
-        border: 0 none;
-        border-top: 2px dashed lightgrey;
+    .dash {
+      border: 0 none;
+      border-top: 2px dashed lightgrey;
 
-        height: 0;
+      height: 0;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
       }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
   </style>
-  </div>
-  
   <!--next and previous button-->
   <br>
   <div>
@@ -600,7 +607,6 @@
     </center>
   </div>
   <br>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <footer>
     <div class="container">
       <div class="row">
@@ -625,7 +631,7 @@
             </li>
 
             <li>
-              <a href="contactPage.html">Contact</a>
+              <a href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -675,8 +681,6 @@
       </div>
     </div>
   </footer>
-  </div>
-  
   <!--scroll-->
   <style>
     a.btt {
@@ -702,7 +706,7 @@
     }
 
     a.btt .fa-chevron-up:before {
-      color: tomato;
+      color: darkgrey;
       position: relative;
       display: table-cell;
       vertical-align: middle;
@@ -712,10 +716,12 @@
     a.btt:hover {
       transform: translatey(-10%);
     }
-/*Nav Bar css*/
+
+    /*Nav Bar css*/
+
     .navbar li a,
     .navbar .navbar-brand {
-      color: tomato !important;
+      color: black !important;
     }
 
     .navbar-nav li a:hover {
@@ -755,6 +761,7 @@
     }
 
     /**/
+
     a {
       text-decoration: none;
       display: inline-block;
@@ -767,12 +774,13 @@
     }
 
     .next {
-      background-color: tomato;
+      background-color: darkgrey;
       color: white;
     }
+
     h2 {
-        color: tomato;
-      }
+      color: darkgrey;
+    }
   </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
