@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Projects | Graham Lea</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -14,8 +11,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   <a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
-  <style>
+
+   <style>
     * {
       box-sizing: border-box;
     }
@@ -48,25 +50,9 @@
 
     .row,
     .row>.column {
-      padding: 8px;
+      padding: 2px;
     }
 
-    /* Create three equal columns that floats next to each other */
-
-    .column {
-      float: left;
-      width: 33.33%;
-      display: none;
-      /* Hide all elements by default */
-    }
-
-    /* Clear floats after rows */
-
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
 
     /* Content */
 
@@ -81,30 +67,29 @@
       display: block;
     }
 
-    /* Style the buttons */
+    /* Style the filter buttons */
 
     .btn {
       border: none;
       outline: none;
-      padding: 12px 16px;
-      background-color: white;
+      padding: 10px 10px;
+      background-color:#333333;
       cursor: pointer;
     }
 
     .btn:hover {
-      background-color: #ddd;
+      background-color: #00aeef;
     }
 
     .btn.active {
-      background-color: #666;
-      color: white;
+      background-color: blue;
+      color: grey;
     }
   </style>
 </head>
-
 <body>
 
-  <!--Nav bar-->
+   <!--Nav bar-->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -159,366 +144,320 @@
     </div>
   </nav>
 
-  <br><br><br><br>
+
+          
+<!--End of Nav-->
+
+<div class="container">
+     <br><br><br><br><br><br>
   <h2>Projects</h2>
-  <hr class="dash" />
-  <!-- MAIN (Center website) -->
-  <div class="main">
+          <hr class="dash" />
+  <div class="row" style=" margin:60px">
+    <div class="col-xs-12">
+      <center>
+      <button class="btn btn-small btn-danger" data-toggle="portfilter" data-target="all">
+          Show all
+        </button>
+      <button class="btn btn-small btn-danger" data-toggle="portfilter" data-target="Barn conversions">
+          Barn conversions
+        </button>
+      <button class="btn btn-small btn-danger" data-toggle="portfilter" data-target="Commercial Projects">
+          Commercial Projects
+        </button>
+      <button class="btn btn-small btn-danger" data-toggle="portfilter" data-target="Contemporary">
+          Contemporary
+        </button>
 
-    <div id="myBtnContainer">
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="btn" onclick="filterSelection('Barn conversions')"> Barn conversions</button>
-      <button class="btn" onclick="filterSelection('Commercial Projects')"> Commercial Projects</button>
-      <button class="btn" onclick="filterSelection('Contemporary')"> Contemporary</button>
-      <button class="btn" onclick="filterSelection('Healthcare')"> Healthcare</button>
-      <button class="btn" onclick="filterSelection('Residential projects')"> Residential projects</button>
-    </div>
-    <!-- Portfolio Gallery Grid -->
-    <div class="row">
-      <div class="column Barn conversions">
-        <div class="content">
-          <img src="img/Projects/Barn conversions/Children’s Nursery – Barn Conversion – Croston – Under Construction.jpg" alt="Barn conversions" style="width:100%">
-          <h4>Children’s Nursery – Barn Conversion</h4>
-          <p>Under Construction - Preston</p>
-        </div>
-      </div>
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Flats External Render and Renovation – Preston.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Flats External Render and Renovation</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Industrial Unit Alterations – Longridge .jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Industrial Unit Alterations</h4>
-          <p>Longridge</p>
-        </div>
-      </div>
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Office Development – Fulwood – Preston.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Office Development</h4>
-          <p>Fulwood</p>
-        </div>
-      </div>
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Old Station Conversion – Longridge.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Old Station Conversion</h4>
-          <p>Longridge</p>
-        </div>
-      </div>
-
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Opticians Extension – Longridge.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Opticians Extension</h4>
-          <p>Longridge</p>
-        </div>
-      </div>
-
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Retirement Village – Clitheroe.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Retirement Village</h4>
-          <p>Clitheroe</p>
-        </div>
-      </div>
-
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Shop Elevations – Blackpool.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Shop Elevations</h4>
-          <p>Blackpool</p>
-        </div>
-      </div>
-
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Surgery Extension – Longridge – Ribble Valley.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Surgery Extension</h4>
-          <p>Longridge – Ribble Valley</p>
-        </div>
-      </div>
-
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Luxury Nursing Home – Blackpool.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Luxury Nursing Home</h4>
-          <p>Blackpool</p>
-        </div>
-      </div>
-
-      <div class="column Commercial Projects">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Medical Centre Extension – Preston.jpg" alt="Commercial Projects" style="width:100%">
-          <h4>Medical Centre Extension</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Bungalow Modernization – Penwortham.jpg" alt="Contemporary" style="width:100%">
-          <h4>Bungalow Modernization</h4>
-          <p>Penwortham</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Conservatory Replacement – Fulwood – Preston.jpg" alt="Contemporary" style="width:100%">
-          <h4>Conservatory Replacement</h4>
-          <p>Fulwood</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Contemporary Covered Outdoor Patio with outside Fire Place – Concept Stage.jpg" alt="Contemporary" style="width:100%">
-          <h4>Contemporary Covered Outdoor Patio</h4>
-          <p>Concept Stage</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Contemporary House Extension – Clitheroe.jpg" alt="Contemporary" style="width:100%">
-          <h4>Contemporary House Extension</h4>
-          <p>Clitheroe</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Contemporary Loft Conversion- Woodplumpton.jpg" alt="Contemporary" style="width:100%">
-          <h4>Contemporary Loft Conversion</h4>
-          <p>Woodplumpton</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Family Room Extension – Blackpool.jpg" alt="Contemporary" style="width:100%">
-          <h4>Family Room Extension</h4>
-          <p>Blackpool</p>
-        </div>
-      </div>
-
-      <div class="column Contemporary">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Subterranean Eco Home in an Area of ONB – Northumberland.jpg" alt="Contemporary" style="width:100%">
-          <h4>Subterranean Eco Home</h4>
-          <p>Northumberland</p>
-        </div>
-      </div>
-
-      <div class="column Healthcare">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Retirement Village – Clitheroe.jpg" alt="Healthcare" style="width:100%">
-          <h4>Retirement Village</h4>
-          <p>Clitheroe</p>
-        </div>
-      </div>
-
-      <div class="column Healthcare">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Medical Centre Extension – Preston.jpg" alt="Healthcare" style="width:100%">
-          <h4>Medical Centre Extension</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-
-      <div class="column Healthcare">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Medical Centre Extension – Preston.jpg" alt="Healthcare" style="width:100%">
-          <h4>Medical Centre Extension</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-
-      <div class="column Healthcare">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Surgery Extension – Longridge – Ribble Valley.jpg" alt="Healthcare" style="width:100%">
-          <h4>Surgery Extension</h4>
-          <p>Longridge – Ribble Valley</p>
-        </div>
-      </div>
-
-      <div class="column Healthcare">
-        <div class="content">
-          <img src="img/Projects/Commercial Projects/Luxury Nursing Home – Blackpool.jpg" alt="Healthcare" style="width:100%">
-          <h4>Luxury Nursing Home</h4>
-          <p>Blackpool</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Bungalow Modernization – Penwortham.jpg" alt="Residential projects" style="width:100%">
-          <h4>Bungalow Modernization</h4>
-          <p>Penwortham</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Subterranean Eco Home in an Area of ONB – Northumberland.jpg" alt="Residential projects" style="width:100%">
-          <h4>Subterranean Eco Home</h4>
-          <p>Northumberland</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Conservatory Replacement – Fulwood – Preston.jpg" alt="Residential projects" style="width:100%">
-          <h4>Conservatory Replacement</h4>
-          <p>Fulwood – Preston</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/First Floor Extension – Euxton – Chorley.jpg" alt="Residential projects" style="width:100%">
-          <h4>First Floor Extension</h4>
-          <p>Chorley</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/Side Extension – Ribbleton – Preston.jpg" alt="Residential projects" style="width:100%">
-          <h4>Side Extension</h4>
-          <p>Ribbleton – Preston</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/Single Storey Extension – Preston.jpg" alt="Residential projects" style="width:100%">
-          <h4>Single Storey Extension</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Contemporary Covered Outdoor Patio with outside Fire Place – Concept Stage.jpg" alt="Residential projects" style="width:100%">
-          <h4>Contemporary Covered Outdoor Patio</h4>
-          <p>Concept Stage</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Contemporary Loft Conversion- Woodplumpton.jpg" alt="Residential projects" style="width:100%">
-          <h4>Contemporary Loft Conversion</h4>
-          <p>Woodplumpton</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Contemporary House Extension – Clitheroe.jpg" alt="Residential projects" style="width:100%">
-          <h4>Contemporary House Extension</h4>
-          <p>Clitheroe</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/Single Storey Extension – Preston.jpg" alt="Residential projects" style="width:100%">
-          <h4>Single Storey Extension</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/Traditional New Build Six Bedroom House – Longridge.jpg" alt="Residential projects" style="width:100%">
-          <h4>Traditional New Build Six Bedroom</h4>
-          <p>Longridge</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/Two Storey House Extension – Preston.jpg" alt="Residential projects" style="width:100%">
-          <h4>Two Storey House Extension</h4>
-          <p>Preston</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Contemporary/Family Room Extension – Blackpool.jpg" alt="Residential projects" style="width:100%">
-          <h4>Family Room Extension</h4>
-          <p>Blackpool</p>
-        </div>
-      </div>
-
-      <div class="column Residential projects">
-        <div class="content">
-          <img src="img/Projects/Residential projects/Balcony Extension – Garstang.jpg" alt="Residential projects" style="width:100%">
-          <h4>Balcony Extension</h4>
-          <p>Garstang</p>
-        </div>
-      </div>
+        <button class="btn btn-small btn-danger" data-toggle="portfilter" data-target="Healthcare">
+          Healthcare
+        </button>
+        </center>
     </div>
   </div>
-  <script>
-    filterSelection("all")
 
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("column");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
+<div class="gallery">
+  <div class="col-md-4" data-tag='Barn conversions'>
+    <img src="img/Projects/Barn conversions/Children’s Nursery – Barn Conversion – Croston – Under Construction.jpg" class="img-responsive" alt="Barn conversions" style="width:100%">
+  </div>
+</div>
 
-    function w3AddClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {
-          element.className += " " + arr2[i];
-        }
-      }
-    }
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Flats External Render and Renovation – Preston.jpg" class="img-responsive" alt="Commercial Projects" style="width:100%">
+  </div>
 
-    function w3RemoveClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
-        }
-      }
-      element.className = arr1.join(" ");
-    }
-    // Add active class to the current button (highlight it)
-    var btnContainer = document.getElementById("myBtnContainer");
-    var btns = btnContainer.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Industrial Unit Alterations – Longridge .jpg" class="img-responsive" alt="Commercial Projects" style="width:100%">
+  </div>
+</div>
+
+<div class="gallery">
+ <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Office Development – Fulwood – Preston.jpg" class="img-responsive" alt="Commercial Projects" style="width:100%">
+  </div>
+</div>
+    
+    <div class="gallery">
+    <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Old Station Conversion – Longridge.jpg" class="img-responsive" alt="Barn conversions" style="width:100%">
+        </div>
+  </div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Opticians Extension – Longridge.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Retirement Village – Clitheroe.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Shop Elevations – Blackpool.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Surgery Extension – Longridge – Ribble Valley.jpg" class="img-responsive" alt="img">
+  </div>
+
+  <div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Luxury Nursing Home – Blackpool.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+ <div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Medical Centre Extension – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+ <div class="gallery">
+  <div class="col-md-4" data-tag='Contemporary'>
+    <img src="img/Projects/Contemporary/Bungalow Modernization – Penwortham.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+ <div class="gallery">
+  <div class="col-md-4" data-tag='Contemporary'>
+    <img src="img/Projects/Contemporary/Conservatory Replacement – Fulwood – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+ <div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Contemporary/Contemporary Covered Outdoor Patio with outside Fire Place – Concept Stage.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Contemporary'>
+    <img src="img/Projects/Contemporary/Contemporary House Extension – Clitheroe.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Contemporary/Contemporary Loft Conversion- Woodplumpton.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Contemporary/Family Room Extension – Blackpool.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Contemporary'>
+    <img src="img/Projects/Contemporary/Subterranean Eco Home in an Area of ONB – Northumberland.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Healthcare'>
+    <img src="img/Projects/Commercial Projects/Retirement Village – Clitheroe.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Healthcare'>
+    <img src="img/Projects/Commercial Projects/Medical Centre Extension – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Medical Centre Extension – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Healthcare'>
+    <img src="img/Projects/Commercial Projects/Surgery Extension – Longridge – Ribble Valley.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Commercial Projects/Luxury Nursing Home – Blackpool.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Contemporary/Bungalow Modernization – Penwortham.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Contemporary/Subterranean Eco Home in an Area of ONB – Northumberland.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Contemporary/Conservatory Replacement – Fulwood – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Residential projects/First Floor Extension – Euxton – Chorley.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Commercial Projects'>
+    <img src="img/Projects/Residential projects/Side Extension – Ribbleton – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Residential projects/Single Storey Extension – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Contemporary/Contemporary Covered Outdoor Patio with outside Fire Place – Concept Stage.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Contemporary'>
+    <img src="img/Projects/Contemporary/Contemporary Loft Conversion- Woodplumpton.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Contemporary/Contemporary House Extension – Clitheroe.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Residential projects/Single Storey Extension – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Residential projects/Traditional New Build Six Bedroom House – Longridge.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Residential projects/Two Storey House Extension – Preston.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Contemporary/Family Room Extension – Blackpool.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="col-md-4" data-tag='Residential projects'>
+    <img src="img/Projects/Residential projects/Balcony Extension – Garstang.jpg" class="img-responsive" alt="img">
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<br><br>
+<script>
+  /* ============================================================
+ * bootstrap-portfilter.js for Bootstrap v2.3.1
+ * https://github.com/geedmo/portfilter
+ * ============================================================*/
+!(function(d) {
+  var c = "portfilter";
+  var b = function(e) {
+    this.$element = d(e);
+    this.stuff = d("[data-tag]");
+    this.target = this.$element.data("target") || "";
+  };
+  b.prototype.filter = function(g) {
+    var e = [],
+      f = this.target;
+    this.stuff
+      .fadeOut("slow")
+      .promise()
+      .done(function() {
+        d(this).each(function() {
+          if (d(this).data("tag") == f || f == "all") {
+            e.push(this);
+          }
+        });
+        d(e).show();
       });
+  };
+  var a = d.fn[c];
+  d.fn[c] = function(e) {
+    return this.each(function() {
+      var g = d(this),
+        f = g.data(c);
+      if (!f) {
+        g.data(c, (f = new b(this)));
+      }
+      if (e == "filter") {
+        f.filter();
+      }
+    });
+  };
+  d.fn[c].defaults = {};
+  d.fn[c].Constructor = b;
+  d.fn[c].noConflict = function() {
+    d.fn[c] = a;
+    return this;
+  };
+  d(document).on(
+    "click.portfilter.data-api",
+    "[data-toggle^=portfilter]",
+    function(f) {
+      d(this).portfilter("filter");
     }
-  </script>
+  );
+})(window.jQuery);
 
-  <!--end of nextprevious button-->
-  <br>
-  <!--footer-->
-  <style>
+</script>
+<style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
     body {
@@ -598,91 +537,7 @@
       }
     }
   </style>
-  <!--next and previous button-->
-  <br>
-  <div>
-    <center>
-      <a href="index.html" class="previous">&laquo; Previous</a>
-      <a href="index.html" class="next">Next &raquo;</a>
-    </center>
-  </div>
-  <br>
-  <footer>
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-          <ul class="contact">
-            <span>Links</span>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-
-            <li>
-              <a href="projects.html">Projects</a>
-            </li>
-
-            <li>
-              <a href="aboutUs.html">About Us</a>
-            </li>
-
-            <li>
-              <a href="news.html">News </a>
-            </li>
-
-            <li>
-              <a href="Contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-          <ul class="adress">
-            <span>Contacts</span>
-            <li>
-              <p>Graham Lea Architecture Fourth Floor The Media Factory Kirkham Street Preston PR1 2HE</p>
-              <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-          <ul class="social">
-            <span>Social media</span>
-            <li>
-              <a href="https://www.facebook.com/Graham-Lea-Architecture-163597200357082/"><i class="fa fa-facebook fa-4x"></i></a>
-            </li>
-
-            <li>
-              <a href="https://twitter.com/Graham_Lea"><i class="fa fa-twitter fa-4x"></i></a>
-            </li>
-
-            <li>
-              <a href="#"><i class="fa fa-linkedin fa-4x"></i></a>
-            </li>
-
-            <li>
-              <a href="https://www.youtube.com/channel/UCa9H_NRq56tjoUEiaTW3irg"><i class="fa fa-youtube fa-4x"></i></a>
-            </li>
-
-            <li>
-              <a href="https://plus.google.com/+GrahamleaCoUk1"><i class="fa fa-google-plus fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="https://www.pinterest.co.uk/glea7/"><i class="fa fa-pinterest fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="https://www.houzz.co.uk/pro/graham-lea/graham-lea-architecture"><i class="fa fa-houzz fa"></i></a>
-            </li>
-          </ul>
-          <img width="200px" src="img/GRAHAM -LEA LOGO.svg"></img>
-        </div>
-
-      </div>
-    </div>
-  </footer>
-  <!--scroll-->
-  <style>
+   <style>
     a.btt {
       display: none;
       position: fixed;
@@ -735,6 +590,7 @@
       font-size: 11px !important;
       letter-spacing: 4px;
       opacity: 0.9;
+     
 
     }
 
@@ -779,10 +635,104 @@
     }
 
     h2 {
-      color: darkgrey;
+      color: auto;
     }
-  </style>
 
+/*creates padding in between images*/
+     img{
+      background-color:;
+      padding: 2px 2px;
+    }
+
+  </style>
+ 
+ <br>
+  <hr class="dash" />
+  
+  <!--next and previous button-->
+  <br>
+  <div>
+    <center>
+      <a href="index.html" class="previous">&laquo; Previous</a>
+      <a href="index.html" class="next">Next &raquo;</a>
+    </center>
+  </div>
+  <br>
+  <br>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<footer>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <ul class="contact">
+            <span>Links</span>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+
+            <li>
+              <a href="aboutUs.html">About Us</a>
+            </li>
+
+            <li>
+              <a href="news.html">News </a>
+            </li>
+
+            <li>
+              <a href="contactPage.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <ul class="adress">
+            <span>Contacts</span>
+            <li>
+              <p>Graham Lea Architecture Fourth Floor The Media Factory Kirkham Street Preston PR1 2HE</p>
+              <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <ul class="social">
+            <span>Social media</span>
+            <li>
+              <a href="https://www.facebook.com/Graham-Lea-Architecture-163597200357082/"><i class="fa fa-facebook fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/Graham_Lea"><i class="fa fa-twitter fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa fa-linkedin fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCa9H_NRq56tjoUEiaTW3irg"><i class="fa fa-youtube fa-4x"></i></a>
+            </li>
+
+            <li>
+              <a href="https://plus.google.com/+GrahamleaCoUk1"><i class="fa fa-google-plus fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.co.uk/glea7/"><i class="fa fa-pinterest fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://www.houzz.co.uk/pro/graham-lea/graham-lea-architecture"><i class="fa fa-houzz fa"></i></a>
+            </li>
+          </ul>
+          <img width="200px" src="img/GRAHAM -LEA LOGO.svg"></img>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script>
