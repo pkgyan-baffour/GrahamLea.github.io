@@ -5,15 +5,16 @@
 	<title>Two Storey House Extension – Preston</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/d3aeb5343c.js"></script>
+
+   <a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
 </head>
 <body>
-
-	<nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -68,188 +69,177 @@
 
 <div class="container">
      <br><br><br><br>
-  <h2>Family Room Extension – Blackpool</h2>
+  <h2>Two Storey House Extension – Preston</h2>
           <hr class="dash" />
 
+  <!--carousel-->
+<div class="product-slider">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
 
-	<!-- bootstrap carousel -->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-	  </ol>
 
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
+     <!-- <div class="item active"> 
+      <img src="img/newfam2.jpg"></div>
+      <div class="item"> <img src="img/newfam1.jpg"> </div>
+      <div class="item"> <img src="img/newfam3.jpg"> </div>
+      <div class="item"> <img src="img/newfam4.jpg"> </div>-->
 
-	    <div class="item active srle">
-	      <img src="img/fam1.jpg" alt="View of Glazed Extension" class="img-responsive">
-	      <div class="carousel-caption">
-	        <p> View of Glazed Extension</p>
-	      </div>
-	    </div>
+      <div class="item active srle">
+        <img src="img/111.jpg" alt="View of Glazed Extension" class="img-responsive">
+        <div class="carousel-caption">
+          <p></p>
+        </div>
+      </div>
 
-	    <div class="item">
-	      <img src="img/fam2.jpg" alt="View From Inside Extension" class="img-responsive">
-	      <div class="carousel-caption">
-	        <p> View From Inside Extension</p>
-	      </div>
-	    </div>
+      <div class="item">
+        <img src="img/222.jpg" alt="View From Inside Extension" class="img-responsive">
+        <div class="carousel-caption">
+          <p> </p>
+        </div>
+      </div>
 
-	    <div class="item">
-	      <img src="img/fam3.jpg" class="img-responsive">
-	      <div class="carousel-caption">
-	        <p>View Inside Family Room</p>
-	      </div>
-	    </div>
+      <div class="item">
+        <img src="img/333.jpg" class="img-responsive">
+        <div class="carousel-caption">
+          <p></p>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+  <div class="clearfix">
+    <div id="thumbcarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="item active">
+          <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/111 copy.jpg"></div>
+          <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/222 copy.jpg"></div>
+          <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/333 copy.jpg"></div>
+          
+       
+        
+        </div>
+       
+      </div>
+      <!-- /carousel-inner --> 
+      <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> </div>
+    <!-- /thumbcarousel --> 
+    
+  </div>
+</div>
 
-	    <div class="item">
-	      <img src="img/fam4.jpg" alt="4.jpg" class="img-responsive">
-	      <div class="carousel-caption">
-	        <p>House Before Works started</p>
-	      </div>
-	    </div>
+<style>
+  .product-slider { padding: 45px; }
 
-	    <div class="item">
-	      <img src="img/fam5.jpg" alt="4.jpg" class="img-responsive">
-	      <div class="carousel-caption">
-	        <p>Happy Client</p>
-	      </div>
-	    </div>
+.product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
 
-	  </div>
+.product-slider #thumbcarousel { margin: 12px 0 0; padding: 0 45px; }
 
-	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right"></span>
-	  </a>
+.product-slider #thumbcarousel .item { text-align: center; }
 
-	  <!-- Thumbnails --> 
-	  <ul class="thumbnails-carousel clearfix">
-	  	<li><img src="img/fam1 copy.jpg" alt=""></li>
-		<li><img src="img/fam2 copy.jpg" alt=""></li>
-		<li><img src="img/fam3 copy.jpg" alt=""></li>
-		<li><img src="img/fam4 copy.jpg" alt=""></li>
-		<li><img src="img/fam5 copy.jpg" alt=""></li>
-	  </ul>
-	</div>
+.product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
 
-	<style>
-		/*         Just for demo     */
-body {
-  
-  text-align: center;
-}
-#carousel-example-generic {
-  display: inline-block;
-}
-/*****************************/
+.product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
 
-/* Plugin styles */
-ul.thumbnails-carousel {
-	padding: 5px 0 0 0;
-	margin: 0;
-	list-style-type: none;
-	text-align: center;
-}
-ul.thumbnails-carousel .center {
-	display: inline-block;
-}
-ul.thumbnails-carousel li {
-	margin-right: 5px;
-	float: left;
-	cursor: pointer;
-}
-.controls-background-reset {
-	background: none !important;
-}
-.active-thumbnail {
-	opacity: 0.4;
-}
-.indicators-fix {
-	bottom: 70px;
-}
-.dash {
-      border: 0 none;
-      border-top: 2px dashed lightgrey;
+.product-slider .item img { width: 100%; height: auto; }
 
-      height: 0;
+.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
+
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
+
+.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
+.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
+
+.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
+
+</style>
+<div class="container">
+    <div class="row">
+      <br><br>
+      
+      <hr class="dash" />
+      <h4>The Project</h4>
+
+      <p class="lead">This was a three bedroom semi-detached property in Fulwood, Preston, built circa 1940s. The owners purchased the property with the intention of renovating and extending it to accommodate a growing family. The owners were keen to balance distinct large, open-plan family living areas with spaces that were more adult orientated. They requested a large open-plan kitchen-dining area on the ground floor, extending above the garage to create an additional bedroom and to the rear of the property creating more living space. A large master bedroom with an en-suite bathroom and dressing room would effectively create a spacious adult wing on the first floor.</p>
+
+<h4>How We Worked</h4>
+<p class="lead">As the property sits on a corner plot there was scope to extend the property quite considerably with minimal disruption to the neighbouring houses. We submitted a pre-application to the local authority beforehand which came back positive.
+
+For this project it was important to commission the specialist skills of a structural engineer to make sure we maximised the space available to us and opened out the property as much as was possible without compromising the existing structure. It was also important that the elevation of the property retained its period character and didn’t look like a conversion once the building work was complete.
+
+To create all the rooms the client desired, we suggested using a sun tube to flood one of the internal rooms with natural light in the absence of windows.</p>
+
+<h4>Project Success</h4>
+<p class="lead">The completed extension met all our clients’ requirements perfectly. From the outside there is very little indication that the house has had any structural changes made to it, whilst the interior is spacious and contemporary with the distinct family and adult oriented spaces the client wanted.</p>
+
+</p>
+      
+    </div>
+</div>
+
+<h4>Similar Projects</h4>
+
+
+            <div class="gallery">
+              <a target="_blank" href="">
+          <img src="img/images/2.jpg" alt="" width="500" height="500">
+        </a>
+              <div class="desc">Conservatory Replacement <br>Fulwood – Preston</div>
+            </div>
+
+              <div class="gallery">
+              <a target="_blank" href="">
+          <img src="img/images/1.jpg" alt="" width="500" height="500">
+        </a>
+              <div class="desc">Conservatory Replacement – Fulwood Preston</div>
+            </div>
+
+              <div class="gallery">
+              <a target="_blank" href="">
+          <img src="img/images/313.jpg" alt="" width="500" height="500">
+        </a>
+              <div class="desc">single storey extension<br> preston</div>
+            </div>
+
+        </div>
+
+
+
+<!--similar projects gallery-->
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      background-color: white;
+      float: left;
+      width: 300px;
     }
-	</style>
 
-	<script>
-		// thumbnails.carousel.js jQuery plugin
-;(function(window, $, undefined) {
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
 
-	var conf = {
-		center: true,
-		backgroundControl: false
-	};
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
 
-	var cache = {
-		$carouselContainer: $('.thumbnails-carousel').parent(),
-		$thumbnailsLi: $('.thumbnails-carousel li'),
-		$controls: $('.thumbnails-carousel').parent().find('.carousel-control')
-	};
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
 
-	function init() {
-		cache.$carouselContainer.find('ol.carousel-indicators').addClass('indicators-fix');
-		cache.$thumbnailsLi.first().addClass('active-thumbnail');
-
-		if(!conf.backgroundControl) {
-			cache.$carouselContainer.find('.carousel-control').addClass('controls-background-reset');
-		}
-		else {
-			cache.$controls.height(cache.$carouselContainer.find('.carousel-inner').height());
-		}
-
-		if(conf.center) {
-			cache.$thumbnailsLi.wrapAll("<div class='center clearfix'></div>");
-		}
-	}
-
-	function refreshOpacities(domEl) {
-		cache.$thumbnailsLi.removeClass('active-thumbnail');
-		cache.$thumbnailsLi.eq($(domEl).index()).addClass('active-thumbnail');
-	}	
-
-	function bindUiActions() {
-		cache.$carouselContainer.on('slide.bs.carousel', function(e) {
-  			refreshOpacities(e.relatedTarget);
-		});
-
-		cache.$thumbnailsLi.click(function(){
-			cache.$carouselContainer.carousel($(this).index());
-		});
-	}
-
-	$.fn.thumbnailsCarousel = function(options) {
-		conf = $.extend(conf, options);
-
-		init();
-		bindUiActions();
-
-		return this;
-	}
-
-})(window, jQuery);
-
-$('.thumbnails-carousel').thumbnailsCarousel();
-	</script>
-	<style>
+  
+    <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
     body {
-      font-family: 'Roboto', sans-serif;
-
+       font-family: 'Roboto', sans-serif;
+    
       background-color: #E8E8E8;
+
     }
+    
 
     footer {
       background-color: #5D5D5D;
@@ -428,6 +418,23 @@ $('.thumbnails-carousel').thumbnailsCarousel();
     }
 
   </style>
+
+   <script>
+       var scrolled = 400;
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > scrolled) {
+          $('a.btt').fadeIn('slow');
+        } else {
+          $('a.btt').fadeOut('slow');
+        }
+      });
+      $('a.btt').click(function() {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 700);
+        return false;
+      });
+    </script>
 <br>
   <hr class="dash" />
   
@@ -442,7 +449,7 @@ $('.thumbnails-carousel').thumbnailsCarousel();
   <br>
   <br>
 </div>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
 <footer>
     <div class="container">
       <div class="row">
@@ -450,24 +457,24 @@ $('.thumbnails-carousel').thumbnailsCarousel();
         <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
           <ul class="contact">
             <span>Links</span>
-            <li>
+           <li>
               <a href="index.html">Home</a>
             </li>
 
             <li>
-              <a href="projects.html">Projects</a>
+              <a href="Projects.html">Projects</a>
             </li>
 
             <li>
-              <a href="aboutUs.html">About Us</a>
+              <a href="About-Us.html">About Us</a>
             </li>
 
             <li>
-              <a href="news.html">News </a>
+              <a href="News1.html">News </a>
             </li>
 
             <li>
-              <a href="contactPage.html">Contact</a>
+              <a href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -517,7 +524,6 @@ $('.thumbnails-carousel').thumbnailsCarousel();
       </div>
    
   </footer>
-
-	
+  
 </body>
 </html>

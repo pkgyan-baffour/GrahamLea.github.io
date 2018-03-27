@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Retirement Village – Clitheroe</title>
+	<title>Traditional New Build Six Bedroom House – Longridge</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,53 +69,32 @@
 
 <div class="container">
      <br><br><br><br>
-  <h2>Retirement Village – Clitheroe</h2>
+  <h2>Traditional New Build Six Bedroom House – Longridge</h2>
           <hr class="dash" />
 
-  <!--carousel-->
+  <!--carousel
 <div class="product-slider">
   <div id="carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
 
-
-     <!-- <div class="item active"> 
-      <img src="img/newfam2.jpg"></div>
-      <div class="item"> <img src="img/newfam1.jpg"> </div>
-      <div class="item"> <img src="img/newfam3.jpg"> </div>
-      <div class="item"> <img src="img/newfam4.jpg"> </div>-->
-
       <div class="item active srle">
-        <img src="img/newfam2.jpg" alt="View of Glazed Extension" class="img-responsive">
+        <img src="img/images/a.jpg" alt="View of Glazed Extension" class="img-responsive">
         <div class="carousel-caption">
-          <p> View of Glazed Extension</p>
+          <p></p>
         </div>
       </div>
 
       <div class="item">
-        <img src="img/newfam1.jpg" alt="View From Inside Extension" class="img-responsive">
+        <img src="img/images/b.jpg" alt="View From Inside Extension" class="img-responsive">
         <div class="carousel-caption">
-          <p> View From Inside Extension</p>
+          <p> </p>
         </div>
       </div>
 
       <div class="item">
-        <img src="img/newfam6.jpg" class="img-responsive">
+        <img src="img/images/cc.jpg" class="img-responsive">
         <div class="carousel-caption">
-          <p>View Inside Family Room</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="img/newfam4.jpg" alt="4.jpg" class="img-responsive">
-        <div class="carousel-caption">
-          <p>House Before Works started</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="img/newfam3.jpg" alt="4.jpg" class="img-responsive">
-        <div class="carousel-caption">
-          <p>Happy Client</p>
+          <p></p>
         </div>
       </div>
      
@@ -125,23 +104,23 @@
     <div id="thumbcarousel" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
         <div class="item active">
-          <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/thumb2.jpg"></div>
-          <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/thumb1.jpg"></div>
-          <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/thumb3.jpg"></div>
-          <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/thumb4.jpg"></div>
+          <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/images/a copy.jpg"></div>
+          <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/images/b copy.jpg"></div>
+          <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/images/cc copy.jpg"></div>
+          
        
         
         </div>
        
       </div>
-      <!-- /carousel-inner --> 
+      <!-- /carousel-inner  
       <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> </div>
-    <!-- /thumbcarousel --> 
+    <!-- /thumbcarousel  
     
   </div>
-</div>
+</div>-->
 
-<style>
+<!--<style>
   .product-slider { padding: 45px; }
 
 .product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
@@ -165,7 +144,7 @@
 
 .carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
 
-</style>
+</style>-->
 <div class="container">
     <div class="row">
       <br><br>
@@ -173,122 +152,49 @@
       <hr class="dash" />
       <h4>The Project</h4>
 
-      <p class="lead">
-We were asked to design a retirement village in the village of Whalley in the heart of the Ribble Valley near to the towns of Blackburn and Clitheroe. The clients for this project were an up and coming housing developer, they had outline planning permission for the building footprint and required detailed plans and elevations. The architect they had been using were overworked and unable to provide the client with the drawings that were required in the tight timescales that the client had. The client had some ideas of how they wanted to develop the scheme while the previous architects provided us with cad files for us to work on and we were shown a rough sketch of what the buildings may look like.
-<br>
-As the clients already had planning permission for the outline of the building we were limited by this constraint. Initially we looked at how many apartments we could fit in the building of a suitable size. for which we produced a diagram showing where the different types of flat may be located.</p>
+      <p class="lead">We were asked to design and obtain planning permission for a 2.5 storey six bedroomed family home in the garden of an existing property. It was the client’s intention to use the house as their family home and a long-term investment.</p>
 
 <h4>How We Worked</h4>
-<p class="lead">Once we decided on the different types of flat each type needed individually design and we produced the 3 flat types below. the clients wanted a good quality look to the building. So we decided on using various types of stone finishes with some render infill.</p>
+<p class="lead">Before seeking planning permission we advised the client to take pre-application advice. We considered and consulted local planning policies, prepared basic existing plans and initial sketch schemes for discussion with the Council (some Council’s charge for this service). When considering a new build it is almost always advisable to do this to find out if your vision is likely to be accepted and more importantly if it isn’t, why and what will be accepted? The advice was positive and revealed that the land lay with the local conservation area. This meant it was necessary to submit a Design and Access Statement along with a Heritage Statement with the planning application.
 
+We then commissioned a topographic survey and tree survey so we could understand the levels on the site. Given that we would be potentially affecting bat habitats we also commissioned a bat survey.
 
-<div id="boxshadow">
-            <img src="img/5-1024x169.gif" alt="" width="600" class="img-responsive" height="400">
-            <p>Drawing of front elevation of flats</p>
-          </div>
-<br><br>
+Once all the necessary documentation and surveys were completed they were submitted to the Council which passed them without amendment.
 
-          <div id="boxshadow">
-            <img src="img/8-1024x385.gif" alt="" width="600" class="img-responsive" height="400">
-            <h4>Layout of flat types within building</h4>
-          </div>
+We were keen to take full advantage of the views of the reservoir and surrounding countryside. We advised a well-proportioned build with large windows and doors to create panoramic views of the countryside. As our client often worked from home we suggested two sunrooms – one at first floor to be used as an office and the other on the ground floor to be used as a family/entertainment room. To the rear our client was keen to create a rustic, cosy theme with the addition of an inglenook fireplace.
 
-<br><br>
-</div>
+Following our advice, our client chose an insulated concrete framework as a construction method. This is a cost-effective build, has excellent insulation capabilities and boasts twice the life of a timber framed building.</p>
 
 <h4>Project Success</h4>
-<p class="lead">A very quick turnaround was needed after the previous architects were unable to complete the project which we managed to deliver in 4 days. The Clients were extremely happy and have instructed us to do further work with them.</p>
+<p class="lead">Our client now has a stunning home with six bedrooms, three with en-suite bathrooms, a lounge, snug, dining room and sun rooms. There is ample off-road parking and detached double garage to the rear, whilst the south facing garden boasts open views of the beautiful countryside.</p>
 
-
-<!--<div id="boxshadow">
-            <img src="img/9-768x1012.gif" alt="" width="200" class="img-responsive" height="100">
-            <p>Drawing of front elevation of flats</p>
-          </div>
-<br><br>
-
-          <div id="boxshadow">
-            <img src="img/11-716x1024.gif" alt="" width="400" class="img-responsive" height="200">
-            <h4>Layout of flat types within building</h4>
-          </div>
-
-<br><br>
-  <div id="boxshadow">
-            <img src="img/12-703x1024.gif" alt="" width="400" class="img-responsive" height="200">
-            <h4>Layout of flat types within building</h4>
-          </div>
-
-      <br><br>
+</p>
+      
     </div>
-</div>-->
-
-<!--carousel-->
-<div id="carousel-example" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example" data-slide-to="1"></li>
-    <li data-target="#carousel-example" data-slide-to="2"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="item active">
-      <a href="#"><img src="img/flatype1.jpg" /></a>
-      <div class="carousel-caption">
-        
-        <p>Flat Layout (Type 1)</p>
-      </div>
-    </div>
-    <div class="item">
-      <a href="#"><img src="img/flatype2.jpg" /></a>
-      <div class="carousel-caption">
-    
-        <p>Flat Layout (Type 2)</p>
-      </div>
-    </div>
-    <div class="item">
-      <a href="#"><img src="img/flatype2red.jpg" /></a>
-      <div class="carousel-caption">
-        
-        <p>Flat Layout (Type 3)</p>
-      </div>
-    </div>
-  </div>
-
-  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
 </div>
-
-<!--end-->
-
-
-
-
 
 <h4>Similar Projects</h4>
 
 
             <div class="gallery">
               <a target="_blank" href="">
-          <img src="img/child2 copy.jpg" alt="" width="500" height="500">
+          <img src="img/images/2.jpg" alt="" width="500" height="500">
         </a>
-              <div class="desc">Conservatory Replacement <br>Fulwood – Preston</div>
+              <div class="desc">Children’s Nursery – Barn Conversion – Croston – Under Construction</div>
             </div>
 
               <div class="gallery">
               <a target="_blank" href="">
-          <img src="img/Flats External Render and Renovation – Preston.jpg" alt="" width="500" height="500">
+          <img src="img/images/1.jpg" alt="" width="500" height="500">
         </a>
-              <div class="desc">Side Extension <br> Ribbleton – Preston</div>
+              <div class="desc">Luxury Nursing Home<br> Blackpool</div>
             </div>
 
               <div class="gallery">
               <a target="_blank" href="">
-          <img src="img/trad2.jpg" alt="" width="500" height="500">
+          <img src="img/images/313.jpg" alt="" width="500" height="500">
         </a>
-              <div class="desc">single storey extension<br> preston</div>
+              <div class="desc">Subterranean Eco Home in an Area of ONB – Northumberland</div>
             </div>
 
         </div>
@@ -320,7 +226,7 @@ As the clients already had planning permission for the outline of the building w
     }
   </style>
 
-  <style>
+  
     <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
@@ -507,37 +413,7 @@ As the clients already had planning permission for the outline of the building w
       background-color:;
       padding: 2px 2px;
     }
-#boxshadow {
-              position: relative;
-              -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-              -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-              box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-              padding: 10px;
-              background: white;
-            }
 
-            /* Make the image fit the box */
-
-            #boxshadow img {
-              width: 100%;
-              border: 1px solid #8a4419;
-              border-style: inset;
-            }
-
-            #boxshadow::after {
-              content: '';
-              position: absolute;
-              z-index: -1;
-              /* hide shadow behind image */
-              -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-              -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-              box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-              width: 70%;
-              left: 15%;
-              /* one half of the remaining 30% */
-              height: 100px;
-              bottom: 0;
-            }
   </style>
 
    <script>
@@ -570,7 +446,7 @@ As the clients already had planning permission for the outline of the building w
   <br>
   <br>
 </div>
- 
+  
 <footer>
     <div class="container">
       <div class="row">
@@ -578,24 +454,24 @@ As the clients already had planning permission for the outline of the building w
         <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
           <ul class="contact">
             <span>Links</span>
-            <li>
+           <li>
               <a href="index.html">Home</a>
             </li>
 
             <li>
-              <a href="projects.html">Projects</a>
+              <a href="Projects.html">Projects</a>
             </li>
 
             <li>
-              <a href="aboutUs.html">About Us</a>
+              <a href="About-Us.html">About Us</a>
             </li>
 
             <li>
-              <a href="news.html">News </a>
+              <a href="News1.html">News </a>
             </li>
 
             <li>
-              <a href="contactPage.html">Contact</a>
+              <a href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
