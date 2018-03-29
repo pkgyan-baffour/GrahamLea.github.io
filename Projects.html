@@ -442,10 +442,7 @@
 
 </script>
 <style>
-body {
-  
-  text-align: center;
-}
+
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
     body {
@@ -509,8 +506,6 @@ body {
       height: 0;
     }
 
-  </style>
-   <style>
     a.btt {
       display: none;
       position: fixed;
@@ -615,6 +610,21 @@ body {
      img{
       background-color:;
       padding: 2px 2px;
+    }
+     /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
     }
 
   </style>

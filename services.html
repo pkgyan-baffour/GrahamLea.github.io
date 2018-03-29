@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Architectural Services | Graham Lea Architecture | Preston</title>
+  <meta charset="UTF-8">
+  <title>Graham Lea | Services</title>
   <meta name="viewport" content="initial-scale=1.0" />
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,15 +12,13 @@
 
   <script src="https://use.fontawesome.com/d3aeb5343c.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   <a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <!--Nav bar-->
+
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -31,20 +29,20 @@
         </button>
         <!--adding logo-->
         </a>
-        <a class="show-for-medium-up" href="index.html" title="" rel="home">
+        <a class="show-for-medium-up" href="Opening.html" title="" rel="home">
         <img src="img/LOGO.png" alt="Graham Lea Architecture">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">HOME</a></li>
+          <li><a href="Opening.html">HOME</a></li>
           <li><a href="Projects.html">PROJECTS</a></li>
           <li><a href="About-Us.html">ABOUT US</a></li>
           <li><a href="News1.html">NEWS</a></li>
           <li><a href="Contact.html">CONTACT</a></li>
           <li class="dropdown">
 
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES
+            <a class="dropdown-toggle" data-toggle="dropdown" href="services.html">SERVICES
           <span class="caret"></span></a>
 
             <ul class="dropdown-menu">
@@ -52,149 +50,40 @@
               <!--adding font awesome for phone-->
               <li><a href="tel:01772463627"><i class="fa fa-phone"></i>01772 463627</a></li>
 
-              <li><a href="#">House Extension Plans</a></li>
-              <li><a href="#">Commercial Architectural Services</a></li>
-              <li><a href="#">New Build Design Services</a></li>
-              <li><a href="#">Barn Conversions</a></li>
-              <li><a href="#">Loft Conversions</a></li>
-              <li><a href="#">Lease / Licensing</a></li>
-              <li><a href="#">Ideas and Sketch Design</a></li>
-              <li><a href="#">Feasibility Studies and Pre-application Advice</a></li>
-              <li><a href="#">Planning Permission</a></li>
-              <li><a href="#">Permitted Development and Neighbour Consultation</a></li>
-              <li><a href="#">Listed Building Consent</a></li>
-              <li><a href="#">Building Regulation Approval</a></li>
-              <li><a href="#">Party Wall and Neighbour Issues</a></li>
+              <li><a href="House Extension Plans.html">House Extension Plans</a></li>
+              <li><a href="Commercial Architectural Services.html">Commercial Architectural Services</a></li>
+              <li><a href="New Build Design Services.html">New Build Design Services</a></li>
+              <li><a href="Barn Conversions.html">Barn Conversions</a></li>
+              <li><a href="Loft Conversions.html">Loft Conversions</a></li>
+              <li><a href="Lease / Licence plans.html">Lease / Licensing</a></li>
+              <li><a href="Ideas and Sketch Design.html">Ideas and Sketch Design</a></li>
+              <li><a href="Feasibility Studies and Pre-application Advice.html">Feasibility Studies and Pre-application Advice</a></li>
+              <li><a href="Planning Permission Granted.html">Planning Permission</a></li>
+              <li><a href="Permitted Development and Neighbour Consultation.html">Permitted Development and Neighbour Consultation</a></li>
+              <li><a href="Listed Building Consent.html">Listed Building Consent</a></li>
+              <li><a href="Building Regulations Approval.html">Building Regulation Approval</a></li>
+              <li><a href="Party Wall and Neighbour Issues.html">Party Wall and Neighbour Issues</a></li>
 
             </ul>
           </li>
 
         </ul>
       </div>
-    </div>
+
   </nav>
-
-  <style>
-    h2 {
-      color: tomato;
-    }
-
-    a.btt {
-      display: none;
-      position: fixed;
-      z-index: 999;
-      width: 50px;
-      height: 50px;
-      right: 30px;
-      bottom: 30px;
-      background: #ebebeb;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 30px;
-      box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
-      transition: transform 0.3s ease-in-out;
-    }
-
-    a.btt .fa {
-      width: 100%;
-      height: 100%;
-      display: table;
-    }
-
-    a.btt .fa-chevron-up:before {
-      color: tomato;
-      position: relative;
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-    }
-
-    a.btt:hover {
-      transform: translatey(-10%);
-    }
-  </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <script>
-    var scrolled = 400;
-    $(window).scroll(function() {
-      if ($(window).scrollTop() > scrolled) {
-        $('a.btt').fadeIn('slow');
-      } else {
-        $('a.btt').fadeOut('slow');
-      }
-    });
-  </script>
-
-  <script>
-    $('a.btt').click(function() {
-      $('html, body').animate({
-        scrollTop: 0
-      }, 700);
-      return false;
-    });
-  </script>
-  </head>
-
-  <style>
-    /*navbar*/
-
-    .navbar li a,
-    .navbar .navbar-brand {
-      color: tomato !important;
-    }
-
-    .navbar-nav li a:hover {
-      color: blue !important;
-    }
-
-    .navbar {
-      margin-bottom: 0;
-      background-color: ;
-      border: 0;
-      font-size: 11px !important;
-      letter-spacing: 4px;
-      opacity: 0.9;
-    }
-
-    .navbar-nav li.active a {
-      color: #fff !important;
-      background-color: #29292c !important;
-    }
-
-    .navbar-default .navbar-toggle {
-      border-color: transparent;
-    }
-
-    .open .dropdown-toggle {
-      color: #fff;
-      background-color: #555 !important;
-    }
-
-    .dropdown-menu li a {
-      color: black !important;
-    }
-
-    .dropdown-menu li a:hover {
-      background-color: lightblue !important;
-    }
-  </style>
-
-  <br>
-
+  <!--https://bootsnipp.com/snippets/featured/beautiful-image-card-with-description-->
   <div class="container">
     <div class="row">
-      <br><br>
+      <br><br><br>
       <h2>Services</h2>
       <hr class="dash" />
       <h4>Architectural Services</h4>
-
       <p class="lead">Commercial buildings, new builds, extensions, garages, loft conversions, internal alterations, Houses of Multiple Occupancy (HMOs), Licence plans – whatever your design needs are Graham Lea Architecture provides a comprehensive range of commercial
-        and residential architectural services. Having building work done or commissioning a commercial project can be daunting, particularly if it’s unfamiliar territory. Let us guide you, step-by-step through the process.</p>
-      <hr class="dash" />
-    </div>
+        and residential architectural services.Having building work done or commissioning a commercial project can be daunting, particularly if it’s unfamiliar territory. Let us guide you, step-by-step through the process.</p>
 
-    <br>
+
+    </div>
+    <hr class="dash" />
     <div class="row row-margin-bottom">
       <div class="col-md-5 no-padding lib-item" data-category="view">
         <div class="lib-panel">
@@ -209,13 +98,16 @@
               </div>
               <div class="lib-row lib-desc">
                 Need more space but moving is not an option. Breathe new life into your home by adding an extension. Find out how our planning and design service can help bring your home extension ideas to life.
+
+
               </div>
+ <a class="btn btn-blog pull-right marginBottom10" href="House Extension Plans.html">READ MORE</a>
             </div>
+
           </div>
+         
         </div>
       </div>
-      
-
       <div class="col-md-1"></div>
       <div class="col-md-5 no-padding lib-item" data-category="ui">
         <div class="lib-panel">
@@ -228,17 +120,23 @@
                 Commercial Architectural Services
                 <div class="lib-header-seperator"></div>
               </div>
-            </div>
-            <div class="lib-row lib-desc">
-              Explore our commercial project portfolio and find out how we can apply our planning and design expertise to make sure your business premises are fit for your purposes.
+              <div class="lib-row lib-desc">
+                Explore our commercial project portfolio and find out how we can apply our planning and design expertise to make sure your business premises are fit for your purposes.
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Commercial Architectural Services.html">READ MORE</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--second box row-->
+  <!-----second set of cards-->
+  <div class="container">
+    <div class="row">
 
+    </div>
+    <hr class="dash" />
     <div class="row row-margin-bottom">
       <div class="col-md-5 no-padding lib-item" data-category="view">
         <div class="lib-panel">
@@ -246,7 +144,6 @@
             <div class="col-md-6">
               <img class="lib-img-show" src="img/images/serv2.jpg">
             </div>
-
             <div class="col-md-6">
               <div class="lib-row lib-header">
                 New Build Design
@@ -255,6 +152,7 @@
               <div class="lib-row lib-desc">
                 There’s no better way to get the home you’ve always dreamed of than to design it yourself. As planning and design experts we are ideally placed to guide and assist you through the planning process and turn your dream home into a reality.
               </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="New Build Design Services.html">READ MORE</a>
             </div>
           </div>
         </div>
@@ -274,47 +172,205 @@
               <div class="lib-row lib-desc">
                 If you want to convert a barn for your own use or turn it into a commercial venture, discover how we can support you through the planning and design process.
               </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Barn Conversions.html">READ MORE</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!--end-->
 
-  <div class="row row-margin-bottom">
-    <div class="col-md-5 no-padding lib-item" data-category="view">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="img/images/serv6.jpg">
-          </div>
+  <!--start of set of cards-->
+  <div class="container">
+    <div class="row">
 
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Loft Conversions
-              <div class="lib-header-seperator"></div>
+    </div>
+    <hr class="dash" />
+    <div class="row row-margin-bottom">
+      <div class="col-md-5 no-padding lib-item" data-category="view">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img-show" src="img/images/serv6.jpg">
             </div>
-            <div class="lib-row lib-desc">
-              Maximise the space in your loft to add a new floor to your property. To make sure you have sufficient space to achieve this take a look at the things we would advise you to consider and how we can help.
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Loft Conversions
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                Maximise the space in your loft to add a new floor to your property. To make sure you have sufficient space to achieve this take a look at the things we would advise you to consider and how we can help.
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Loft Conversions.html">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5 no-padding lib-item" data-category="ui">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img" src="img/images/serv7.jpg">
+            </div>
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Lease / Licence plans
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                This is a service exclusively for business owners and solicitors. Our quick and efficient lease / licence plans service will make sure you’re doing the kind of business you want in no time at all.
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Lease / Licence plans.html">READ MORE</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-5 no-padding lib-item" data-category="ui">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img" src="img/images/serv7.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Lease / Licence plans
-              <div class="lib-header-seperator"></div>
+  </div>
+  <!--end-->
+  <!--set of cards-->
+  <div class="container">
+    <div class="row">
+
+    </div>
+    <hr class="dash" />
+    <div class="row row-margin-bottom">
+      <div class="col-md-5 no-padding lib-item" data-category="view">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img-show" src="img/images/serv8.jpg">
             </div>
-            <div class="lib-row lib-desc">
-              This is a service exclusively for business owners and solicitors. Our quick and efficient lease / licence plans service will make sure you’re doing the kind of business you want in no time at all.
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Feasibility Studies and Pre-application Advice
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                We think this is one of the most crucial stages in the planning and design process. Benefit from our extensive knowledge and experience of dealing with local planning laws and regulations...
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Feasibility Studies and Pre-application Advice.html">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5 no-padding lib-item" data-category="ui">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img" src="img/images/serv9.jpg">
+            </div>
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Ideas and Sketch Design
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                Planning what you want to get out of your build project can be fun. Find out what we recommend you do to get the most out of this stage.
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Ideas and Sketch Design.html">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end-->
+
+  <!---cards-->
+  <div class="container">
+    <div class="row">
+
+    </div>
+    <hr class="dash" />
+    <div class="row row-margin-bottom">
+      <div class="col-md-5 no-padding lib-item" data-category="view">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img-show" src="img/images/serv10.jpg">
+            </div>
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Planning Permission
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                Gaining planning permission for your building project can be overwhelming to those who are unfamiliar with the process. Discover more about the practical help and advice you can expect from us.
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Planning Permission Granted.html">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5 no-padding lib-item" data-category="ui">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img" src="img/images/serv11.jpg">
+            </div>
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Permitted Development and Neighbour Consultation
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                Gaining planning permission for your building project can be overwhelming to those who are unfamiliar with the process...
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Permitted Development and Neighbour Consultation.html">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end-->
+  <!--cards-->
+  <div class="container">
+    <div class="row">
+
+    </div>
+    <hr class="dash" />
+    <div class="row row-margin-bottom">
+      <div class="col-md-5 no-padding lib-item" data-category="view">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img-show" src="img/images/serv12.jpg">
+            </div>
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Conservation and Listed Building Consent
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                "If you have a building which is listed or within a Conservation Area then development of the property can be restricted. We are experienced in providing advice and assistance in getting the approvals required to get your project onsite."
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Listed Building Consent.html">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5 no-padding lib-item" data-category="ui">
+        <div class="lib-panel">
+          <div class="row box-shadow">
+            <div class="col-md-6">
+              <img class="lib-img" src="img/images/serv13.jpg">
+            </div>
+            <div class="col-md-6">
+              <div class="lib-row lib-header">
+                Building Regulations Approval
+                <div class="lib-header-seperator"></div>
+              </div>
+              <div class="lib-row lib-desc">
+                Providing local Councils with precise and detailed drawings can speed up the planning permission process and get your building work underway sooner rather than later. Find out how we do this for you.
+              </div>
+               <a class="btn btn-blog pull-right marginBottom10" href="Building Regulations Approval.html">READ MORE</a>
             </div>
           </div>
         </div>
@@ -322,204 +378,12 @@
     </div>
   </div>
   </div>
-
-  <div class="row row-margin-bottom">
-    <div class="col-md-5 no-padding lib-item" data-category="view">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="img/images/serv8.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Feasibility Studies and Pre-application Advice
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              We think this is one of the most crucial stages in the planning and design process. Benefit from our extensive knowledge and experience of dealing
-              <!--with local planning laws and regulations,and discover how we can take a lot of the stress and hassle out of this stage for you.-->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-5 no-padding lib-item" data-category="ui">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img" src="img/images/serv9.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Ideas and Sketch Design
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              Planning what you want to get out of your build project can be fun. Find out what we recommend you do to get the most out of this stage.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <div class="row row-margin-bottom">
-    <div class="col-md-5 no-padding lib-item" data-category="view">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="img/images/serv10.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Planning Permission
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              Gaining planning permission for your building project can be overwhelming to those who are unfamiliar with the process. Discover more about the practical help and advice you can expect from us.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-5 no-padding lib-item" data-category="ui">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img" src="img/images/serv11.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Permitted Development and Neighbour Consultation
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              Gaining planning permission for your building project can be overwhelming to those who are unfamiliar with the process...
-              <!--Discover more about the practical help and advice you can expect from us.-->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="row row-margin-bottom">
-    <div class="col-md-5 no-padding lib-item" data-category="view">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="img/images/serv12.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Conservation and Listed Building Consent
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              some text
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-5 no-padding lib-item" data-category="ui">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img" src="img/images/serv13.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              Building Regulations Approval
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              Providing local Councils with precise and detailed drawings can speed up the planning permission process and get your building work underway sooner rather than later. Find out how we do this for you.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <style>
-    body {
-      padding: 20px;
-      font-family: 'Open Sans', sans-serif;
-      background-color: #f7f7f7;
-    }
-
-    .lib-panel {
-      margin-bottom: 20Px;
-    }
-
-    .lib-panel img {
-      width: 100%;
-      background-color: transparent;
-    }
-
-    .lib-panel .row,
-    .lib-panel .col-md-6 {
-      padding: 0;
-      background-color: #FFFFFF;
-    }
-
-
-    .lib-panel .lib-row {
-      padding: 0 20px 0 20px;
-    }
-
-    .lib-panel .lib-row.lib-header {
-      background-color: #FFFFFF;
-      font-size: 20px;
-      padding: 10px 20px 0 20px;
-    }
-
-    .lib-panel .lib-row.lib-header .lib-header-seperator {
-      height: 2px;
-      width: 26px;
-      background-color: #d9d9d9;
-      margin: 7px 0 7px 0;
-    }
-
-    .lib-panel .lib-row.lib-desc {
-      position: relative;
-      height: 100%;
-      display: block;
-      font-size: 13px;
-    }
-
-    .lib-panel .lib-row.lib-desc a {
-      position: absolute;
-      width: 100%;
-      bottom: 10px;
-      left: 20px;
-    }
-
-    .row-margin-bottom {
-      margin-bottom: 20px;
-    }
-
-    .box-shadow {
-      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
-      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
-    }
-
-    .no-padding {
-      padding: 0;
-    }
-  </style>
-
-  <hr>
+  <!--end-->
 
   <div class="container">
     <div class="row">
       <h3>A typical design service</h3>
-
+      <hr class="dash" />
       <p>
         <ul>
           <li>
@@ -544,30 +408,7 @@
         <p>We can also help with costings, finding reliable builders to tender and do the work, and arrange a site management architect design service.</p>
     </div>
   </div>
-
-  <!--next and previous button-->
-  <style>
-    a {
-      text-decoration: none;
-      display: inline-block;
-      padding: 8px 16px;
-    }
-
-    a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    .previous {
-      background-color: #f1f1f1;
-      color: black;
-    }
-
-    .next {
-      background-color: tomato;
-      color: white;
-    }
-  </style>
+  <br><br>
   <div>
     <center>
 
@@ -577,6 +418,193 @@
   </div>
 
   <br><br>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+    body {
+      font-family: "Source Sans Pro", sans-serif;
+      line-height: 1.5;
+      color: #323232;
+      font-size: 15px;
+      font-weight: 400;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+    }
+
+
+
+    /*back to top*/
+
+    /*CSS inside Custom CSS window*/
+
+    a.btt {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      width: 50px;
+      height: 50px;
+      right: 30px;
+      bottom: 30px;
+      background: #ebebeb;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    a.btt .fa {
+      width: 100%;
+      height: 100%;
+      display: table;
+    }
+
+    a.btt .fa-chevron-up:before {
+      color: darkgrey;
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    a.btt:hover {
+      transform: translatey(-10%);
+    }
+    .btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+  /*read more button*/
+
+      .btn-blog {
+        color: black;
+        background-color: lightgrey;
+        
+        border-radius: 0;
+        margin-bottom: 10px
+      }
+
+      .btn-blog:hover,
+      .btn-blog:focus,
+      .btn-blog:active,
+      .btn-blog.active,
+      .open .dropdown-toggle.btn-blog {
+        color: white;
+        background-color: grey;
+</style>
+   <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+    body {
+       font-family: 'Roboto', sans-serif;
+    
+      background-color: #E8E8E8;
+
+    }
+
+    footer {
+      background-color: #5D5D5D;
+      padding: 10px 0px;
+    }
+
+    .adress span,
+    .contact span,
+    .social span {
+      color: darkgrey;
+      font-weight: 800;
+      padding: 5px 0px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 3px;
+    }
+
+    .adress li,
+    .contact li,
+    .social li {
+      padding: 5px 0px;
+      list-style: none;
+    }
+
+    .adress li p,
+    .contact li a,
+    .social li a {
+      color: #FFF;
+      letter-spacing: 2px;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: justify;
+    }
+
+    .lead {
+      text-align: justify;
+    }
+
+    .social li {
+      float: left;
+    }
+
+    .social .fa {
+      color: #9c9c9c;
+      margin-right: 10px;
+      font-size: 22px;
+    }
+
+    .dash {
+      border: 0 none;
+      border-top: 2px dashed lightgrey;
+
+      height: 0;
+    }
+
+    .p {
+      text-align: justify;
+    }
+  </style>
+
+  <script>
+    var scrolled = 400;
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > scrolled) {
+        $('a.btt').fadeIn('slow');
+      } else {
+        $('a.btt').fadeOut('slow');
+      }
+    });
+    $('a.btt').click(function() {
+      $('html, body').animate({
+        scrollTop: 0
+      }, 700);
+      return false;
+    });
+  </script>
+
+  <script>
+    // When the DOM is ready, run this function
+    $(document).ready(function() {
+      //Set the carousel options
+      $('#quote-carousel').carousel({
+        pause: true,
+        interval: 4000,
+      });
+    });
+  </script>
+
+  <br>
 
   <footer>
     <div class="container">
@@ -586,23 +614,23 @@
           <ul class="contact">
             <span>Links</span>
             <li>
-              <a href="index.html">Home</a>
+              <a href="Opening.html">Home</a>
             </li>
 
             <li>
-              <a href="projects.html">Projects</a>
+              <a href="Projects.html">Projects</a>
             </li>
 
             <li>
-              <a href="aboutUs.html">About Us</a>
+              <a href="About-Us.html">About Us</a>
             </li>
 
             <li>
-              <a href="news.html">News </a>
+              <a href="News1.html">News </a>
             </li>
 
             <li>
-              <a href="contactPage.html">Contact</a>
+              <a href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -650,13 +678,7 @@
         </div>
       </div>
     </div>
-    </div>
-    </div>
-
   </footer>
-
-  <br>
-
   <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
@@ -664,50 +686,127 @@
       font-family: 'Roboto', sans-serif;
 
       background-color: #E8E8E8;
+
     }
 
-    footer {
-      background-color: #5D5D5D;
-      padding: 10px 0px;
+    .lib-panel {
+      margin-bottom: 20Px;
     }
 
-    .adress span,
-    .contact span,
-    .social span {
-      color: tomato;
-      font-weight: 800;
-      padding: 5px 0px;
+    .lib-panel img {
+      width: 100%;
+      background-color: transparent;
+    }
+
+    .lib-panel .row,
+    .lib-panel .col-md-6 {
+      padding: 0;
+      background-color: #FFFFFF;
+
+    }
+
+
+    .lib-panel .lib-row {
+      padding: 0 20px 0 20px;
+    }
+
+    .lib-panel .lib-row.lib-header {
+      background-color: #FFFFFF;
+      font-size: 20px;
+      padding: 10px 20px 0 20px;
+    }
+
+    .lib-panel .lib-row.lib-header .lib-header-seperator {
+      height: 2px;
+      width: 26px;
+      background-color: #d9d9d9;
+      margin: 7px 0 7px 0;
+    }
+
+    .lib-panel .lib-row.lib-desc {
+      position: relative;
+      height: 100%;
       display: block;
-      text-transform: uppercase;
-      font-size: 16px;
-      letter-spacing: 3px;
+      font-size: 13px;
     }
 
-    .adress li,
-    .contact li,
-    .social li {
-      padding: 5px 0px;
-      list-style: none;
+    .lib-panel .lib-row.lib-desc a {
+      position: absolute;
+      width: 100%;
+      bottom: 10px;
+      left: 20px;
     }
 
-    .adress li p,
-    .contact li a,
-    .social li a {
-      color: #FFF;
-      letter-spacing: 2px;
-      text-decoration: none;
-      font-size: 14px;
+    .row-margin-bottom {
+      margin-bottom: 20px;
     }
 
-    .social li {
-      float: left;
+    .box-shadow {
+      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
     }
 
-    .social .fa {
-      color: #9c9c9c;
-      margin-right: 10px;
-      font-size: 22px;
+    .no-padding {
+      padding: 0;
     }
+
+    .navbar li a,
+    .navbar .navbar-brand {
+      color: black !important;
+    }
+
+    .navbar-nav li a:hover {
+      color: blue !important;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      background-color: ;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+
+    }
+
+    .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+    }
+
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+    }
+
+    .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+    }
+
+    .dropdown-menu li a {
+      color: black !important;
+    }
+
+    .dropdown-menu li a:hover {
+      background-color: lightblue !important;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+
     a {
       text-decoration: none;
       display: inline-block;
@@ -715,7 +814,7 @@
     }
 
     a:hover {
-      background-color: #ddd;
+      background-color:;
       color: black;
     }
 
@@ -725,21 +824,10 @@
     }
 
     .next {
-      background-color: tomato;
+      background-color: darkgrey;
       color: white;
     }
-
-    h2 {
-      color: tomato;
-    }
-
-    .dash {
-      border: 0 none;
-      border-top: 2px dashed lightgrey;
-
-      height: 0;
-    }
   </style>
-
 </body>
+
 </html>

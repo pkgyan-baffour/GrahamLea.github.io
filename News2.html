@@ -193,6 +193,21 @@
               height: 100px;
               bottom: 0;
             }
+      /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
           </style>
 
           <!-- <p>
@@ -301,7 +316,7 @@
     <style>
     body {
   
-  text-align: center;
+  text-align: ;
 }
 
       @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
