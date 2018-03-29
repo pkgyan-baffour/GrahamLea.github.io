@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Monthly Archives: April 2015</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -103,6 +104,8 @@ video {
 </video>
 <br><br>
 
+
+
                 <p>This entry was posted in Uncategorized on April 23, 2015.</p>
 <br>
                  <hr class="dash" />
@@ -114,6 +117,59 @@ video {
 The current owners are looking to add another storey to the building. <br>This will make the building more in fitting with the surrounding area (which was developed after the architects house was built).
 
 “We are quite excited about working on this house and we are looking forward to building on what was a great design for the time”</p>
+
+
+<div class="w3-container">
+  
+</div>
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="img/images/archtect1.jpg" style="width:100%">
+  <img class="mySlides" src="img/images/archtect2.jpg" style="width:100%">
+  <img class="mySlides" src="img/images/archtect3.jpg" style="width:100%">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img/images/archtect1 copy.jpg" style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img/images/archtect2 copy.jpg" style="width:100%" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img/images/archtect3 copy.jpg" style="width:100%" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
 
 
 
@@ -187,21 +243,21 @@ The current owners are looking to add another storey to the building. <br>This w
     <div class="dropdown">
    <button class="dropbtn">Dropdown</button>
     <div class="dropdown-content">
-    <a href="#">February 2018</a>
-    <a href="#">December 2017</a>
-    <a href="#">November 2017</a>
-    <a href="#">February 2017</a>
-    <a href="#">January 2017</a>
-    <a href="#">October 2016</a>
-    <a href="#">April 2016</a>
-    <a href="#">February 2016</a>
+    <a href="Monthly Archives- February 2018.html">February 2018</a>
+    <a href="Monthly Archives- December 2017.html">December 2017</a>
+    <a href="Monthly Archives- November 2017.html">November 2017</a>
+    <a href="Monthly Archives- February 2017.html">February 2017</a>
+    <a href="Monthly Archives- January 2017.html">January 2017</a>
+    <a href="Monthly Archives- October 2016.html">October 2016</a>
+    <a href="Monthly Archives- April 2016.html">April 2016</a>
+    <a href="Monthly Archives- February 2016.html">February 2016</a>
     <a href="#">December 2016</a>
-    <a href="#">September 2015</a>
-    <a href="#">August 2015</a>
-    <a href="#">June 2015</a>
-    <a href="#">May 2015</a>
-    <a href="#">April 2015</a>
-    <a href="#">February 2015</a>
+    <a href="Monthly Archives- September 2015.html">September 2015</a>
+    <a href="Monthly Archives- August 2015.html">August 2015</a>
+    <a href="Monthly Archives- June 2015.html">June 2015</a>
+    <a href="Monthly Archives- May 2015.html">May 2015</a>
+    <a href="Monthly Archives- April 2015 .html">April 2015</a>
+    <a href="Monthly Archives- February 2015.html">February 2015</a>
   </div>
 </div>
 </div>
@@ -591,6 +647,24 @@ The current owners are looking to add another storey to the building. <br>This w
 .dropdown:hover .dropbtn {
     background-color: grey;
 }
+.mySlides {display:none}
+.demo {cursor:pointer}
+
+ /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
     </style>
 
     <!--next and previous button-->
