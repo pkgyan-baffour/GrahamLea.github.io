@@ -245,7 +245,7 @@
         padding: 10px 0px;
       }
 
-      .adress span,
+      .address span,
       .contact span,
       .social span {
         color: darkgrey;
@@ -257,20 +257,24 @@
         letter-spacing: 3px;
       }
 
-      .adress li,
+      .address li,
       .contact li,
       .social li {
         padding: 5px 0px;
         list-style: none;
       }
-
-      .adress li p,
+      .address li p,
       .contact li a,
       .social li a {
         color: #FFF;
         letter-spacing: 2px;
         text-decoration: none;
         font-size: 14px;
+        text-align: left;
+      }
+
+      .p {
+        text-align: justify;
       }
 
       .social li {
@@ -279,15 +283,15 @@
 
       .social .fa {
         color: #9c9c9c;
-        margin-right: 10px;
+        margin-right: 5px;
         font-size: 22px;
       }
-      a {
-        text-decoration: none;
-        display: inline-block;
-        padding: 8px 16px;
-      }
 
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 1px 5px;
+    }
       .previous {
         background-color: #f1f1f1;
         color: black;
@@ -338,7 +342,26 @@
     float: left;
     width: 362px;
 }
+.lead {
 
+  text-align: justify;
+}
+
+ /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
 div.gallery:hover {
     border: 1px solid #777;
 }
@@ -361,45 +384,38 @@ div.desc {
       </center>
     </div>
     <br>
-    <footer>
+   <footer>
       <div class="container">
         <div class="row">
-
           <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
             <ul class="contact">
               <span>Links</span>
               <li>
-                <a href="index.html">Home</a>
+                <a href="Opening.html">Home</a>
               </li>
-
               <li>
                 <a href="projects.html">Projects</a>
               </li>
-
               <li>
                 <a href="aboutUs.html">About Us</a>
               </li>
-
               <li>
                 <a href="news.html">News </a>
               </li>
-
               <li>
                 <a href="contactPage.html">Contact</a>
               </li>
             </ul>
           </div>
-
           <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-            <ul class="adress">
+            <ul class="address">
               <span>Contacts</span>
               <li>
-                <p>Graham Lea Architecture Fourth Floor The Media Factory Kirkham Street Preston PR1 2HE</p>
+                <p>Graham Lea Architecture <br>Fourth Floor The Media <br>Factory Kirkham Street <br>Preston PR1 2HE</p>
                 <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
               </li>
             </ul>
           </div>
-
           <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
             <ul class="social">
               <span>Social media</span>
@@ -431,7 +447,6 @@ div.desc {
             </ul>
             <img width="200px" src="img/GRAHAM -LEA LOGO.svg"></img>
           </div>
-
         </div>
       </div>
     </footer>
