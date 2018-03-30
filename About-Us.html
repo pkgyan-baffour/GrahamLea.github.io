@@ -609,7 +609,7 @@ video {
     <hr class="dash" />
     <p class="lead">
       After Graham Lea graduated with a degree in Architecture from the University of Lincoln, he began his architectural career as a draftsman for United Utilities. He then moved to Michael Rayner Associates Architects where his involvement in architect’s
-      projects varied from preparing drawings to full contact administration. After embarking on his postgraduate architecture studies he worked at Anderton Gables as a Senior Architectural Designer where he was involved with a number of projects. whilst
+      projects varied from preparing drawings to full contact administration. After embarking on his postgraduate architecture studies he worked at Anderton Gables as a Senior Architectural Designer where he was involved with a number of projects.<br><br> whilst
       there he took the lead in delivering a £5,000,000 architectural project of a 75 bed nursing home in Blackpool. Using the experience gained he subsequently set up his own architectural business working on both private and commercial projects. Graham
       is skilled in finding creative, pragmatic solutions driven by a careful understanding of the client’s requirements and the unique possibilities of each project. He has an exceptional ability to communicate ideas to a broad range of people, and win
       the widespread support necessary for the development of small-scale, complex projects.
@@ -919,9 +919,6 @@ video {
       infowindow.open(map, marker);
     }
   </script>
-
-  <br>
-
   <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
   <!--
 To use this code on your website, get a free API key from Google.
@@ -989,56 +986,60 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
       background-color: #E8E8E8;
     }
 
-    footer {
-      background-color: #5D5D5D;
-      padding: 10px 0px;
-    }
+     footer {
+          background-color: #5D5D5D;
+          padding: 10px 0px;
+        }
 
-    .adress span,
-    .contact span,
-    .social span {
-      color: darkgrey;
-      font-weight: 800;
-      padding: 5px 0px;
-      display: block;
-      text-transform: uppercase;
-      font-size: 16px;
-      letter-spacing: 3px;
-    }
+        
+      .address span,
+      .contact span,
+      .social span {
+        color: darkgrey;
+        font-weight: 800;
+        padding: 5px 0px;
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 3px;
+      }
 
-    .adress li,
-    .contact li,
-    .social li {
-      padding: 5px 0px;
-      list-style: none;
-    }
+      .address li,
+      .contact li,
+      .social li {
+        padding: 5px 0px;
+        list-style: none;
+      }
+      .address li p,
+      .contact li a,
+      .social li a {
+        color: #FFF;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 14px;
+        text-align: left;
+      }
 
-    .adress li p,
-    .contact li a,
-    .social li a {
-      color: #FFF;
-      letter-spacing: 2px;
+        .p {
+          text-align: justify;
+        }
+
+          .social li {
+        float: left;
+      }
+
+      .social .fa {
+        color: #9c9c9c;
+        margin-right: 5px;
+        font-size: 22px;
+      }
+       a {
       text-decoration: none;
-      font-size: 14px;
-      text-align: justify;
+      display: inline-block;
+      padding: 1px 5px;
     }
 
-    .p {
-      text-align: justify;
-    }
-
-    .social li {
-      float: left;
-    }
-
-    .social .fa {
-      color: #9c9c9c;
-      margin-right: 10px;
-      font-size: 22px;
-    }
   </style>
-
- 
   <script>
     var scrolled = 400;
     $(window).scroll(function() {
@@ -1067,19 +1068,15 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     });
   </script>
 
-
-
-  <br>
-
-<footer>
+ <footer>
     <div class="container">
       <div class="row">
 
         <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
           <ul class="contact">
             <span>Links</span>
-           <li>
-              <a href="Opening.html">Home</a>
+            <li>
+              <a href="index.html">Home</a>
             </li>
 
             <li>
@@ -1101,12 +1098,12 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-          <ul class="adress">
+          <ul class="address">
             <span>Contacts</span>
-            <li>
-              <p>Graham Lea Architecture Fourth Floor The Media Factory Kirkham Street Preston PR1 2HE</p>
-              <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
-            </li>
+             <li>
+                <p>Graham Lea Architecture <br>Fourth Floor The Media <br>Factory Kirkham Street <br>Preston PR1 2HE</p>
+                <p>Office: 01772 463627 <br>Mobile: 07787 887729<br>graham@grahamlea.co.uk</p>
+              </li>
           </ul>
         </div>
 
@@ -1141,10 +1138,9 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
           </ul>
           <img width="200px" src="img/GRAHAM -LEA LOGO.svg"></img>
         </div>
-    </div>
       </div>
-   
+    </div>
+
   </footer>
-  
     </body>
     </html>
