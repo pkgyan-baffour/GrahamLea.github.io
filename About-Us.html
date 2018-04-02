@@ -773,134 +773,7 @@
         </div>
       </div>
     </div>
-
-    <style>
-      /* carousel */
-
-      #quote-carousel {
-        padding: 0 10px 30px 10px;
-        margin-top: 30px;
-      }
-
-      /* Control buttons  */
-
-      #quote-carousel .carousel-control {
-        background: none;
-        color: darkgrey;
-        font-size: 2.3em;
-        text-shadow: none;
-        margin-top: 30px;
-      }
-
-      /* Previous button  */
-
-      #quote-carousel .carousel-control.left {
-        left: -52px;
-      }
-
-      /* Next button  */
-
-      #quote-carousel .carousel-control.right {
-        right: -52px !important;
-      }
-
-      /* Changes the position of the indicators (3 dots top set to auto would determine length of text)*/
-
-      #quote-carousel .carousel-indicators {
-        right: 80%;
-        top: -20px;
-        bottom: 0px;
-        margin-right: -19px;
-      }
-
-      /* Changes the color of the indicators */
-
-      #quote-carousel .carousel-indicators li {
-        background: #c0c0c0;
-      }
-
-      #quote-carousel .carousel-indicators .active {
-        background: darkgrey;
-      }
-
-      #quote-carousel img {
-        width: 100%;
-        height: 100%;
-      }
-
-      /* End carousel */
-
-      .item blockquote {
-        border-left: none;
-        margin: 0;
-      }
-
-      .item blockquote img {
-        margin-bottom: 10px;
-      }
-
-      .item blockquote p:before {
-        content: "\f10d";
-        font-family: 'Fontawesome';
-        float: left;
-        margin-right: 10px;
-      }
-
-
-
-      /**
-  MEDIA QUERIES
-*/
-
-      /* Small devices (tablets, 768px and up) */
-
-      @media (min-width: 768px) {
-        #quote-carousel {
-          margin-bottom: 0;
-          padding: 0 40px 30px 40px;
-        }
-
-      }
-
-      /* Small devices (tablets, up to 768px) */
-
-      @media (max-width: 768px) {
-
-        /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-        #quote-carousel .carousel-indicators {
-          bottom: -20px !important;
-        }
-        #quote-carousel .carousel-indicators li {
-          display: inline-block;
-          margin: 0px 5px;
-          width: 15px;
-          height: 15px;
-        }
-        #quote-carousel .carousel-indicators li.active {
-          margin: 0px 5px;
-          width: 20px;
-          height: 20px;
-        }
-      }
-
-      /* Responsive layout - makes a two column-layout instead of four columns */
-
-      @media screen and (max-width: 900px) {
-        .column {
-          width: 50%;
-        }
-      }
-
-      /*responsive images*/
-
-      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-      @media screen and (max-width: 600px) {
-        .column {
-          width: 100%;
-        }
-      }
-    </style>
+  </div>
 
     <!--end-->
     <br>
@@ -909,6 +782,7 @@
     <br>
     <hr class="dash" />
     <h3 class="text-uppercase">FIND US</h3>
+    <br>
   </div>
 
   <!--googleApi-->
@@ -935,125 +809,8 @@
     }
   </script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtKxuOWebvmpapOHVR4Qts0oI8J5M4Nr0&callback=myMap"></script>
   <!--MAP ENDS-->
-  <style>
-    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
-
-    body {
-      font-family: "Source Sans Pro", sans-serif;
-      line-height: 1.5;
-      color: #323232;
-      font-size: 15px;
-      font-weight: 400;
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
-      -moz-font-smoothing: antialiased;
-    }
-
-
-
-    /*back to top*/
-
-    /*CSS inside Custom CSS window*/
-
-    a.btt {
-      display: none;
-      position: fixed;
-      z-index: 999;
-      width: 50px;
-      height: 50px;
-      right: 30px;
-      bottom: 30px;
-      background: #ebebeb;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 30px;
-      box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
-      transition: transform 0.3s ease-in-out;
-    }
-
-    a.btt .fa {
-      width: 100%;
-      height: 100%;
-      display: table;
-    }
-
-    a.btt .fa-chevron-up:before {
-      color: darkgrey;
-      position: relative;
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-    }
-
-    a.btt:hover {
-      transform: translatey(-10%);
-    }
-
-    @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-
-    body {
-      font-family: 'Roboto', sans-serif;
-
-      background-color: #E8E8E8;
-    }
-
-    footer {
-      background-color: #5D5D5D;
-      padding: 10px 0px;
-    }
-
-
-    .address span,
-    .contact span,
-    .social span {
-      color: darkgrey;
-      font-weight: 800;
-      padding: 5px 0px;
-      display: block;
-      text-transform: uppercase;
-      font-size: 16px;
-      letter-spacing: 3px;
-    }
-
-    .address li,
-    .contact li,
-    .social li {
-      padding: 5px 0px;
-      list-style: none;
-    }
-
-    .address li p,
-    .contact li a,
-    .social li a {
-      color: #FFF;
-      letter-spacing: 2px;
-      text-decoration: none;
-      font-size: 14px;
-      text-align: left;
-    }
-
-    .p {
-      text-align: justify;
-    }
-
-    .social li {
-      float: left;
-    }
-
-    .social .fa {
-      color: #9c9c9c;
-      margin-right: 5px;
-      font-size: 22px;
-    }
-
-    a {
-      text-decoration: none;
-      display: inline-block;
-      padding: 1px 5px;
-    }
-  </style>
   <script>
     var scrolled = 400;
     $(window).scroll(function() {
@@ -1210,22 +967,6 @@
       color: darkgrey;
     }
 
-    div.gallery {
-      margin: 5px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 362px;
-    }
-
-    div.gallery:hover {
-      border: 1px solid #777;
-    }
-
-    div.gallery img {
-      width: 100%;
-      height: auto;
-    }
-
     .lead {
       text-align: justify;
     }
@@ -1245,11 +986,246 @@
         width: 100%;
       }
     }
+      @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
-    div.desc {
-      padding: 5px;
+    body {
+      font-family: "Source Sans Pro", sans-serif;
+      line-height: 1.5;
+      color: #323232;
+      font-size: 15px;
+      font-weight: 400;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+    }
+
+
+
+    /*back to top*/
+
+    /*CSS inside Custom CSS window*/
+
+    a.btt {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      width: 50px;
+      height: 50px;
+      right: 30px;
+      bottom: 30px;
+      background: #ebebeb;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    a.btt .fa {
+      width: 100%;
+      height: 100%;
+      display: table;
+    }
+
+    a.btt .fa-chevron-up:before {
+      color: darkgrey;
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
       text-align: center;
     }
+
+    a.btt:hover {
+      transform: translatey(-10%);
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+
+      background-color: #E8E8E8;
+    }
+
+    footer {
+      background-color: #5D5D5D;
+      padding: 10px 0px;
+    }
+
+
+    .address span,
+    .contact span,
+    .social span {
+      color: darkgrey;
+      font-weight: 800;
+      padding: 5px 0px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 3px;
+    }
+
+    .address li,
+    .contact li,
+    .social li {
+      padding: 5px 0px;
+      list-style: none;
+    }
+
+    .address li p,
+    .contact li a,
+    .social li a {
+      color: #FFF;
+      letter-spacing: 2px;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .p {
+      text-align: justify;
+    }
+
+    .social li {
+      float: left;
+    }
+
+    .social .fa {
+      color: #9c9c9c;
+      margin-right: 5px;
+      font-size: 22px;
+    }
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 1px 5px;
+    }
+          /* carousel */
+
+      #quote-carousel {
+        padding: 0 10px 30px 10px;
+        margin-top: 30px;
+      }
+
+      /* Control buttons  */
+
+      #quote-carousel .carousel-control {
+        background: none;
+        color: darkgrey;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 30px;
+      }
+
+      /* Previous button  */
+
+      #quote-carousel .carousel-control.left {
+        left: -52px;
+      }
+
+      /* Next button  */
+
+      #quote-carousel .carousel-control.right {
+        right: -52px !important;
+      }
+
+      /* Changes the position of the indicators (3 dots top set to auto would determine length of text)*/
+
+      #quote-carousel .carousel-indicators {
+        right: 80%;
+        top: -20px;
+        bottom: 0px;
+        margin-right: -19px;
+      }
+
+      /* Changes the color of the indicators */
+
+      #quote-carousel .carousel-indicators li {
+        background: #c0c0c0;
+      }
+
+      #quote-carousel .carousel-indicators .active {
+        background: darkgrey;
+      }
+
+      #quote-carousel img {
+        width: 100%;
+        height: 100%;
+      }
+
+      /* End carousel */
+
+      .item blockquote {
+        border-left: none;
+        margin: 0;
+      }
+
+      .item blockquote img {
+        margin-bottom: 10px;
+      }
+
+      .item blockquote p:before {
+        content: "\f10d";
+        font-family: 'Fontawesome';
+        float: left;
+        margin-right: 10px;
+      }
+
+
+
+      /**
+  MEDIA QUERIES
+*/
+
+      /* Small devices (tablets, 768px and up) */
+
+      @media (min-width: 768px) {
+        #quote-carousel {
+          margin-bottom: 0;
+          padding: 0 40px 30px 40px;
+        }
+
+      }
+
+      /* Small devices (tablets, up to 768px) */
+
+      @media (max-width: 768px) {
+
+        /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+        #quote-carousel .carousel-indicators {
+          bottom: -20px !important;
+        }
+        #quote-carousel .carousel-indicators li {
+          display: inline-block;
+          margin: 0px 5px;
+          width: 15px;
+          height: 15px;
+        }
+        #quote-carousel .carousel-indicators li.active {
+          margin: 0px 5px;
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns */
+
+      @media screen and (max-width: 900px) {
+        .column {
+          width: 50%;
+        }
+      }
+
+      /*responsive images*/
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
   </style>
 
   <script>
