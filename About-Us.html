@@ -6,6 +6,10 @@
   <title>Graham Lea | About Us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "myStyle.css" />
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -63,10 +67,8 @@
               <li><a href="Listed Building Consent.html">Listed Building Consent</a></li>
               <li><a href="Building Regulations Approval.html">Building Regulation Approval</a></li>
               <li><a href="Party Wall and Neighbour Issues.html">Party Wall and Neighbour Issues</a></li>
-
             </ul>
           </li>
-
         </ul>
       </div>
     </div>
@@ -74,7 +76,9 @@
 
   <br><br><br><br>
   <div class='container carousel'>
+
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -104,8 +108,8 @@
             <img src="img/images/carouselNew2.jpg" class="responsive">
           </div>
           <div class="col-lg-4">
-
-            <small>Penwortham</small></h2>
+            <h2>
+              <small>Penwortham</small></h2>
             <p>
               Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus...
             </p>
@@ -775,14 +779,14 @@
     </div>
   </div>
 
-    <!--end-->
-    <br>
-    <!--nextbutton-->
+  <!--end-->
+  <br>
+  <!--nextbutton-->
 
-    <br>
-    <hr class="dash" />
-    <h3 class="text-uppercase">FIND US</h3>
-    <br>
+  <br>
+  <hr class="dash" />
+  <h3 class="text-uppercase">FIND US</h3>
+  <br>
   </div>
 
   <!--googleApi-->
@@ -986,7 +990,8 @@
         width: 100%;
       }
     }
-      @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
     body {
       font-family: "Source Sans Pro", sans-serif;
@@ -1101,131 +1106,132 @@
       display: inline-block;
       padding: 1px 5px;
     }
-          /* carousel */
 
-      #quote-carousel {
-        padding: 0 10px 30px 10px;
-        margin-top: 30px;
-      }
+    /* carousel */
 
-      /* Control buttons  */
+    #quote-carousel {
+      padding: 0 10px 30px 10px;
+      margin-top: 30px;
+    }
 
-      #quote-carousel .carousel-control {
-        background: none;
-        color: darkgrey;
-        font-size: 2.3em;
-        text-shadow: none;
-        margin-top: 30px;
-      }
+    /* Control buttons  */
 
-      /* Previous button  */
+    #quote-carousel .carousel-control {
+      background: none;
+      color: darkgrey;
+      font-size: 2.3em;
+      text-shadow: none;
+      margin-top: 30px;
+    }
 
-      #quote-carousel .carousel-control.left {
-        left: -52px;
-      }
+    /* Previous button  */
 
-      /* Next button  */
+    #quote-carousel .carousel-control.left {
+      left: -52px;
+    }
 
-      #quote-carousel .carousel-control.right {
-        right: -52px !important;
-      }
+    /* Next button  */
 
-      /* Changes the position of the indicators (3 dots top set to auto would determine length of text)*/
+    #quote-carousel .carousel-control.right {
+      right: -52px !important;
+    }
 
-      #quote-carousel .carousel-indicators {
-        right: 80%;
-        top: -20px;
-        bottom: 0px;
-        margin-right: -19px;
-      }
+    /* Changes the position of the indicators (3 dots top set to auto would determine length of text)*/
 
-      /* Changes the color of the indicators */
+    #quote-carousel .carousel-indicators {
+      right: 80%;
+      top: -20px;
+      bottom: 0px;
+      margin-right: -19px;
+    }
 
-      #quote-carousel .carousel-indicators li {
-        background: #c0c0c0;
-      }
+    /* Changes the color of the indicators */
 
-      #quote-carousel .carousel-indicators .active {
-        background: darkgrey;
-      }
+    #quote-carousel .carousel-indicators li {
+      background: #c0c0c0;
+    }
 
-      #quote-carousel img {
-        width: 100%;
-        height: 100%;
-      }
+    #quote-carousel .carousel-indicators .active {
+      background: darkgrey;
+    }
 
-      /* End carousel */
+    #quote-carousel img {
+      width: 100%;
+      height: 100%;
+    }
 
-      .item blockquote {
-        border-left: none;
-        margin: 0;
-      }
+    /* End carousel */
 
-      .item blockquote img {
-        margin-bottom: 10px;
-      }
+    .item blockquote {
+      border-left: none;
+      margin: 0;
+    }
 
-      .item blockquote p:before {
-        content: "\f10d";
-        font-family: 'Fontawesome';
-        float: left;
-        margin-right: 10px;
-      }
+    .item blockquote img {
+      margin-bottom: 10px;
+    }
+
+    .item blockquote p:before {
+      content: "\f10d";
+      font-family: 'Fontawesome';
+      float: left;
+      margin-right: 10px;
+    }
 
 
 
-      /**
+    /**
   MEDIA QUERIES
 */
 
-      /* Small devices (tablets, 768px and up) */
+    /* Small devices (tablets, 768px and up) */
 
-      @media (min-width: 768px) {
-        #quote-carousel {
-          margin-bottom: 0;
-          padding: 0 40px 30px 40px;
-        }
-
+    @media (min-width: 768px) {
+      #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
       }
 
-      /* Small devices (tablets, up to 768px) */
+    }
 
-      @media (max-width: 768px) {
+    /* Small devices (tablets, up to 768px) */
 
-        /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-        #quote-carousel .carousel-indicators {
-          bottom: -20px !important;
-        }
-        #quote-carousel .carousel-indicators li {
-          display: inline-block;
-          margin: 0px 5px;
-          width: 15px;
-          height: 15px;
-        }
-        #quote-carousel .carousel-indicators li.active {
-          margin: 0px 5px;
-          width: 20px;
-          height: 20px;
-        }
+    @media (max-width: 768px) {
+
+      /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+      #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
       }
-
-      /* Responsive layout - makes a two column-layout instead of four columns */
-
-      @media screen and (max-width: 900px) {
-        .column {
-          width: 50%;
-        }
+      #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
       }
-
-      /*responsive images*/
-
-      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-      @media screen and (max-width: 600px) {
-        .column {
-          width: 100%;
-        }
+      #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
       }
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /*responsive images*/
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
   </style>
 
   <script>
